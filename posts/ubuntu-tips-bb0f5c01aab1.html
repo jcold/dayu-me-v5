@@ -1,0 +1,224 @@
+<!DOCTYPE html><html class="overflow-y-scroll" dir="ltr" lang="zh"><head><meta charset="UTF-8"><meta content="width=device-width, initial-scale=1" name="viewport"><title>Ubuntu/Linux 三板斧 | 🌾大余之道</title><meta content="Ubuntu/Linux 三板斧 | 🌾大余之道" name="title"><meta content="本页目录 [TOC] 记录我的Ubuntu三板斧技能 将变量键值对写入 。查看如下： Pretty hostname 保存在：。某些情况下需要引用该HostName，还需要在  文件中增加该地址解析。" name="description"><meta content="everkm-publish@v0.19.1" name="generator"><meta content="paper@0.1.3" name="theme"><script>(function () {
+  const stored = localStorage.getItem("theme");
+  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  const theme = stored ?? (prefersDark ? "dark" : "light");
+  const root = document.documentElement;
+  root.setAttribute("data-theme", theme);
+  root.classList.toggle("dark", theme === "dark");
+  window.__theme = { value: theme };
+})();</script><script>
+          window.__everkm_lang = "zh";
+          window.__everkm_base_url = "/";
+          window.__everkm_features_view_transitions = true;
+          window.__everkm_env_is_preview = true;
+          </script><link href="/assets/paper.NS6YBPXS.css" rel="stylesheet"><link href="/assets/plugin-in-search.2M2YEI74.css" rel="stylesheet"></head><body class="bg-background font-app text-foreground selection:bg-accent/75 selection:text-accent-foreground flex min-h-svh flex-col"><a class="bg-background text-accent absolute start-16 -top-full z-50 px-3 py-2 backdrop-blur-lg transition-all focus:top-4" href="#main-content" id="skip-to-content">跳到正文</a><header class="app-layout flex flex-col items-center justify-between sm:flex-row" data-vt-swap="header"><div class="border-border bg-background relative flex w-full items-baseline justify-between border-b py-4 sm:items-center sm:py-6"><a class="absolute py-1 text-xl leading-8 font-semibold whitespace-nowrap sm:static sm:my-auto sm:text-2xl sm:leading-none" href="/index.html">🌾大余之道</a><nav class="flex w-full flex-col items-center sm:ms-2 sm:flex-row sm:justify-end sm:space-x-4 sm:py-0" id="nav-menu"><button aria-controls="menu-items" aria-expanded="false" aria-label="打开菜单" class="focus-outline self-end p-2 sm:hidden" data-label-close="关闭菜单" data-label-open="打开菜单" id="menu-btn" type="button"><span aria-hidden="true" class="inline-flex items-center justify-center leading-none "><svg class="icon icon-tabler icons-tabler-outline icon-tabler-x hidden" fill="none" height="24" id="close-icon" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none" stroke="none"></path><path d="M18 6l-12 12"></path><path d="M6 6l12 12"></path></svg></span><span aria-hidden="true" class="inline-flex items-center justify-center leading-none "><svg class="icon icon-tabler icons-tabler-outline icon-tabler-menu-deep" fill="none" height="24" id="menu-icon" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none" stroke="none"></path><path d="M4 6h16"></path><path d="M7 12h13"></path><path d="M10 18h10"></path></svg></span></button><ul class="[&amp;&gt;li&gt;a:hover]:text-accent mt-4 hidden w-44 grid-cols-2 place-content-center gap-2 sm:mt-0 sm:flex sm:w-auto sm:gap-x-5 sm:gap-y-0 sm:[&amp;&gt;li]:h-8 [&amp;&gt;li&gt;a]:block [&amp;&gt;li&gt;a]:px-4 [&amp;&gt;li&gt;a]:py-3 [&amp;&gt;li&gt;a]:text-center [&amp;&gt;li&gt;a]:font-medium sm:[&amp;&gt;li&gt;a]:px-2 sm:[&amp;&gt;li&gt;a]:py-1" id="menu-items"><li class="col-span-2 flex items-center justify-center sm:col-span-1"><div id="header-in-search"><x-in-search api-key="95bb37e3122ee9cb57a8ee0abbd14409" app-id="1N74YC70XF" index="dayu_me" only-button="false" site="dayu.me"></x-in-search></div></li><li class="col-span-2"><a class="" data-nav-path="/posts" href="/posts/index.html">文章</a></li><li class="col-span-2"><a class="" data-nav-path="/tags" href="/tags/index.html">标签</a></li><li class="col-span-2"><a class="" data-nav-path="/about" href="/about/">关于</a></li><li class="col-span-2"><a aria-label="归档" class="group inline-flex items-center gap-1 hover:text-accent focus-outline flex size-full justify-center p-3 sm:relative sm:size-8 sm:p-0  " data-nav-icon="" data-nav-path="/archives" href="/archives/index.html" title="归档"><span aria-hidden="true" class="inline-flex items-center justify-center leading-none "><svg class="icon icon-tabler icons-tabler-outline icon-tabler-archive hidden sm:absolute sm:top-1/2 sm:left-1/2 sm:block sm:size-6 sm:-translate-x-1/2 sm:-translate-y-1/2" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none" stroke="none"></path><path d="M3 4m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"></path><path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10"></path><path d="M10 12l4 0"></path></svg></span><span class="sm:sr-only">归档</span><span aria-hidden="true" class="pointer-events-none scale-125 max-sm:hidden sm:absolute sm:-bottom-2 sm:left-1/2 sm:w-6 sm:-translate-x-1/2 hidden" data-nav-active-icon=""><span aria-hidden="true" class="inline-flex items-center justify-center leading-none "><svg class="w-6" fill="none" viewBox="0 0 181 35" xmlns="http://www.w3.org/2000/svg">
+<path d="M92.1951 34.9707C81.4183 35.4458 74.5487 30.1331 70.9707 20.242C68.4805 13.3456 63.9436 10.5669 56.6016 10.682C40.7584 10.9124 25.3302 13.144 10.6177 19.1622C6.1381 20.9907 3.4762 18.6295 0.885762 16.1532C-1.26101 14.0799 0.671043 9.90465 4.77854 8.59448C11.591 6.42046 18.5036 4.07366 25.545 3.18102C38.1967 1.5829 50.9913 0.992615 63.7145 0.0423814C70.7416 -0.475928 74.9781 3.82887 78.3557 9.17033C79.658 11.2148 80.3164 13.6912 81.2324 15.9804C84.0947 23.1359 85.3255 24.5324 92.968 23.2942C105.705 21.2498 118.286 18.2119 130.952 15.6492C145.664 12.6545 160.377 9.60229 175.147 6.86677C176.921 6.53563 179.039 8.13373 181 8.8248C179.97 10.3077 179.254 12.6257 177.88 13.1152C169.851 16.0091 161.765 18.8455 153.521 20.9907C136.762 25.3531 119.903 29.298 103.058 33.3005C99.5085 34.15 95.816 34.4379 92.1951 34.985V34.9707Z" fill="currentColor"></path>
+</svg>
+</span></span></a></li><li class="col-span-2 flex items-center justify-center sm:col-span-1"><button aria-label="auto" aria-live="polite" class="focus-outline hover:[&amp;&gt;svg]:stroke-accent relative flex size-8 items-center justify-center" id="theme-btn" title="切换主题" type="button"><span aria-hidden="true" class="inline-flex items-center justify-center leading-none "><svg class="icon icon-tabler icons-tabler-outline icon-tabler-moon absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none" stroke="none"></path><path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path></svg></span><span aria-hidden="true" class="inline-flex items-center justify-center leading-none "><svg class="icon icon-tabler icons-tabler-outline icon-tabler-sun-high absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 scale-0 rotate-90 transition-all dark:scale-100 dark:rotate-0" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none" stroke="none"></path><path d="M14.828 14.828a4 4 0 1 0 -5.656 -5.656a4 4 0 0 0 5.656 5.656z"></path><path d="M6.343 17.657l-1.414 1.414"></path><path d="M6.343 6.343l-1.414 -1.414"></path><path d="M17.657 6.343l1.414 -1.414"></path><path d="M17.657 17.657l1.414 1.414"></path><path d="M4 12h-2"></path><path d="M12 4v-2"></path><path d="M20 12h2"></path><path d="M12 20v2"></path></svg></span></button></li></ul></nav></div></header><div data-vt-swap="page-chrome"><div class="app-layout flex items-center justify-start"><a class="group inline-flex items-center gap-1 text-muted-foreground focus-outline hover:text-foreground -ms-2 mb-4 mt-8 " href="/index.html" id="back-button"><span aria-hidden="true"><svg class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-left inline-block size-6 rtl:rotate-180" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none" stroke="none"></path><path d="M15 6l-6 6l6 6"></path></svg>
+</span><span>返回</span></a></div></div><main class="app-layout" data-layout="post" id="main-content"><h1 class="text-foreground inline-block text-[1.8em] font-bold tracking-tight">Ubuntu/Linux 三板斧</h1><div class="text-muted-foreground mt-3 flex flex-wrap items-center gap-x-4 gap-y-1.5 text-sm"><div class="text-muted-foreground flex items-center gap-x-1 "><span aria-hidden="true" class="inline-flex items-center justify-center leading-none "><svg class="icon icon-tabler icons-tabler-outline icon-tabler-calendar-week inline-block size-4 min-w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none" stroke="none"></path><path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z"></path><path d="M16 3v4"></path><path d="M8 3v4"></path><path d="M4 11h16"></path><path d="M7 14h.013"></path><path d="M10.01 14h.005"></path><path d="M13.01 14h.005"></path><path d="M16.015 14h.005"></path><path d="M13.015 17h.005"></path><path d="M7.01 17h.005"></path><path d="M10.01 17h.005"></path></svg></span><time class="text-sm " datetime="2023-08-31T03:36:00.000Z">2023-08-31</time></div></div><article class="app-prose max-w-app w-full prose-pre:bg-[var(--shiki-light-bg)] dark:prose-pre:bg-[var(--shiki-dark-bg)] mt-6" id="article"><p><em>本页目录</em></p>
+<div class="md-toc"><ul>
+<li><a href="#wei-suo-you-yong-hu-zeng-jia-huan-jing-bian-liang">为所有用户增加环境变量</a></li>
+<li><a href="#yong-jiu-geng-gai-host-name">永久更改 Host Name</a></li>
+<li><a href="#sshmi-yao-yu-gitlian-jie">ssh秘钥与git连接</a></li>
+<li><a href="#shi-yong-luo-ji-juan-guan-li-ying-pan-fen-qu-jia-zhuang-ying-pan-hou-xi-tong-kuo-rong">使用逻辑卷管理硬盘分区，加装硬盘后系统扩容</a></li>
+<li><a href="#sshyu-socks5dai-li">ssh与socks5代理</a></li>
+<li><a href="#sshfan-xiang-dai-li">ssh反向代理</a></li>
+<li><a href="#zhao-hui-sshgong-yao">找回ssh公钥</a></li>
+<li><a href="#gao-xiao-ya-suo-gong-ju-zhi-xz">高效压缩工具之xz</a></li>
+<li><a href="#jia-zai-huan-jing-bian-liang">加载环境变量</a></li>
+<li><a href="#find-sou-suo">find 搜索</a>
+<ul>
+<li><a href="#ming-ling-gai-shu">命令概述</a></li>
+<li><a href="#he-xin-gong-neng">核心功能</a></li>
+<li><a href="#ji-shu-te-dian">技术特点</a></li>
+<li><a href="#shu-chu-jie-guo">输出结果</a></li>
+<li><a href="#gua-yong-chang-jing">适用场景</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<p>记录我的Ubuntu三板斧技能</p>
+<h1>为所有用户增加环境变量<a class="heading-anchor" href="#wei-suo-you-yong-hu-zeng-jia-huan-jing-bian-liang" name="wei-suo-you-yong-hu-zeng-jia-huan-jing-bian-liang"></a></h1>
+<p>将变量键值对写入 <code>/etc/environment</code>。查看如下：</p>
+<pre><code class="language-bash">root@y5:~# cat /etc/environment
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+LOCAL_IP="10.0.4.11"
+</code></pre>
+<h1>永久更改 Host Name<a class="heading-anchor" href="#yong-jiu-geng-gai-host-name" name="yong-jiu-geng-gai-host-name"></a></h1>
+<pre><code class="language-bash"># 写入新的HostName到文件 /etc/hostname
+echo dayu &gt; /etc/hostname
+
+# 显示当前HostName
+root@y5:~# hostname
+y5
+
+# 查看包括HostName在内系统信息
+root@y5:~# hostnamectl
+ Static hostname: y5
+ Pretty hostname: y5.liveio.cn
+       Icon name: computer-vm
+         Chassis: vm
+      Machine ID: 8053f6f3b11c4c898c03c8dac1ce1ac3
+         Boot ID: b1a053915d01402c90fd11c2c43870d1
+  Virtualization: kvm
+Operating System: Ubuntu 22.04 LTS
+          Kernel: Linux 5.15.0-72-generic
+    Architecture: x86-64
+ Hardware Vendor: Tencent Cloud
+  Hardware Model: CVM
+
+</code></pre>
+<p>Pretty hostname 保存在：<code>/etc/machine-info</code>。某些情况下需要引用该HostName，还需要在 <code>/etc/hosts</code> 文件中增加该地址解析。</p>
+<h1>ssh秘钥与git连接<a class="heading-anchor" href="#sshmi-yao-yu-gitlian-jie" name="sshmi-yao-yu-gitlian-jie"></a></h1>
+<pre><code class="language-bash"># 测试私钥是否有权限连接服务器
+ssh -T git@dev.liveio.cn -p 2222 -i id_rsa.key
+
+# 使用指定秘钥clone代码库
+ssh-agent bash -c 'ssh-add /data/liveio/src/id_ed25519_devops; git clone  ssh://git@github.com/daobox/wz-app.git'
+
+# 生成新的私钥
+ssh-keygen -t ed25519 -C "devops@liveio.cn" -m PEM
+
+</code></pre>
+<h1>使用逻辑卷管理硬盘分区，加装硬盘后系统扩容<a class="heading-anchor" href="#shi-yong-luo-ji-juan-guan-li-ying-pan-fen-qu-jia-zhuang-ying-pan-hou-xi-tong-kuo-rong" name="shi-yong-luo-ji-juan-guan-li-ying-pan-fen-qu-jia-zhuang-ying-pan-hou-xi-tong-kuo-rong"></a></h1>
+<p>查看当前逻辑分区信息：</p>
+<pre><code class="language-bash">root@dev-liveio:~# lsblk
+NAME                      MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+loop0                       7:0    0  55.6M  1 loop /snap/core18/2745
+loop1                       7:1    0  55.6M  1 loop /snap/core18/2751
+loop2                       7:2    0  63.3M  1 loop /snap/core20/1879
+loop3                       7:3    0  63.5M  1 loop /snap/core20/1891
+loop4                       7:4    0   103M  1 loop /snap/lxd/23541
+loop5                       7:5    0 111.9M  1 loop /snap/lxd/24322
+loop6                       7:6    0  53.2M  1 loop /snap/snapd/19122
+loop7                       7:7    0  53.3M  1 loop /snap/snapd/19361
+sda                         8:0    0 931.5G  0 disk
+└─sda1                      8:1    0 931.5G  0 part
+sdb                         8:16   0 111.8G  0 disk
+├─sdb1                      8:17   0     1G  0 part /boot/efi
+├─sdb2                      8:18   0     2G  0 part /boot
+└─sdb3                      8:19   0 108.7G  0 part
+  └─ubuntu--vg-ubuntu--lv 253:0    0     1T  0 lvm  /
+sdc                         8:32   0 953.9G  0 disk
+└─sdc1                      8:33   0 953.9G  0 part
+  └─ubuntu--vg-ubuntu--lv 253:0    0     1T  0 lvm  /
+</code></pre>
+<p>要增加 Ubuntu 上的卷组（Volume Group）的大小，你可以按照以下步骤进行操作：</p>
+<ol>
+<li>
+<p>连接硬盘：将新的硬盘连接到计算机，并确保系统正确识别了它（可以使用 <code>sudo fdisk -l</code> 命令进行检查）。</p>
+</li>
+<li>
+<p>创建物理卷（Physical Volume）：使用 <code>pvcreate</code> 命令创建新的物理卷。假设新硬盘的设备路径是 <code>/dev/sdX</code>，可以使用以下命令创建物理卷：</p>
+<pre><code class="language-bash">sudo pvcreate /dev/sdX
+</code></pre>
+</li>
+<li>
+<p>将物理卷添加到现有的卷组：使用 <code>vgextend</code> 命令将新创建的物理卷添加到现有的卷组中。假设现有卷组的名称是 <code>myvg</code>，可以使用以下命令将物理卷添加到该卷组：</p>
+<pre><code class="language-bash">sudo vgextend myvg /dev/sdX
+</code></pre>
+</li>
+<li>
+<p>扩展卷组的逻辑卷：一旦物理卷添加到了卷组中，你可以使用 <code>lvextend</code> 命令来扩展卷组中逻辑卷的大小。假设要扩展的逻辑卷名称是 <code>mylv</code>，可以使用以下命令扩展该逻辑卷的大小：</p>
+<pre><code class="language-bash">sudo lvextend -l +100%FREE /dev/myvg/mylv
+</code></pre>
+<p>上述命令中的 <code>-l +100%FREE</code> 指定将逻辑卷扩展到卷组中可用的所有剩余空间。</p>
+</li>
+<li>
+<p>扩展文件系统：最后一步是扩展逻辑卷上的文件系统，以便可以利用新增的空间。根据使用的文件系统类型，你可以使用适当的命令进行扩展。例如，对于 ext4 文件系统，可以使用 <code>resize2fs</code> 命令进行扩展：</p>
+<pre><code class="language-bash">sudo resize2fs /dev/myvg/mylv
+</code></pre>
+</li>
+</ol>
+<p>完成上述步骤后，卷组的大小应该已成功增加，并且逻辑卷和文件系统已经占用了新增的空间。</p>
+<p>请注意，在进行任何操作之前，请确保你了解自己的硬件和系统要求，并小心谨慎地操作。此外，确保你对 LVM 的操作非常熟悉，以免不小心删除或修改了错误的卷。建议在操作前进行充分的测试和验证，并备份重要数据。</p>
+<p>Ref: https://blog.yqxpro.com/2021/10/31/%E9%80%9A%E8%BF%87LVM%E7%BB%99Ubuntu%E6%B7%BB%E5%8A%A0%E7%A1%AC%E7%9B%98%E7%A9%BA%E9%97%B4/</p>
+<h1>ssh与socks5代理<a class="heading-anchor" href="#sshyu-socks5dai-li" name="sshyu-socks5dai-li"></a></h1>
+<pre><code class="language-bash"># 本地拨入远程主机，并打开一个Socks5代理
+ssh  -p 11022 -D 127.0.0.1:1337 -N root@y4.dayu.me
+</code></pre>
+<p><strong>参数</strong></p>
+<ul>
+<li><code>p</code>: 远程主机ssh端口</li>
+<li><code>D</code>: 本地监听的地址与端口</li>
+<li><code>N</code>: 不执行命令，仅作端口转发</li>
+</ul>
+<h1>ssh反向代理<a class="heading-anchor" href="#sshfan-xiang-dai-li" name="sshfan-xiang-dai-li"></a></h1>
+<pre><code class="language-bash"># 将本地的9080端口反向拨入到远程主机y4.dayu.me的5001端口，远程主机的ssh端口为11022。
+# 最后的作用是：y4.dayu.me:5001  -&gt; localhost:9080
+ssh -CNR 5001:localhost:9080 root@y4.dayu.me -p 11022
+</code></pre>
+<h1>找回ssh公钥<a class="heading-anchor" href="#zhao-hui-sshgong-yao" name="zhao-hui-sshgong-yao"></a></h1>
+<pre><code class="language-bash">ssh-keygen -y -f ~/.ssh/id_rsa &gt; ~/.ssh/id_rsa.pub
+</code></pre>
+<p><strong>ref</strong>:</p>
+<ul>
+<li><a href="https://www.jianshu.com/p/84645538b639">如何找回ssh公钥 - 简书</a></li>
+</ul>
+<h1>高效压缩工具之xz<a class="heading-anchor" href="#gao-xiao-ya-suo-gong-ju-zhi-xz" name="gao-xiao-ya-suo-gong-ju-zhi-xz"></a></h1>
+<p>高压缩率的工具，它使用 LZMA2 压缩算法，生成的压缩文件比传统使用的 gzip、bzip2 生成的压缩文件更小，
+详情见<a href="https://tukaani.org/xz/">官网</a>。</p>
+<pre><code class="language-bash">xz [选项] [参数]
+</code></pre>
+<p>主要参数说明：</p>
+<pre><code class="language-bash">-z --compress  # 强制压缩
+-d --decompress # 解压缩
+-t --test # 测试压缩文件的完整性
+-k --keep # 压缩或解压时保持源文件不被删除
+-l --list # 列出有关.xz文件的信息
+-0~9 # 指定压缩率，默认为6;
+-h --help # 显示这个简洁的帮助并退出
+-H --long-help # 显示更多帮助（还列出了高级选项）
+-V --version # 显示版本号并退出
+</code></pre>
+<p>eg: <sup class="footnote-reference"><a href="#eg">1</a></sup></p>
+<pre><code class="language-bash"># xz压缩
+xz nohup.log
+
+# 解压使用-d参数，如果保留源文件可以加-k
+xz -dk nohup.log.xz 
+
+# 参数 -l 显示 .xz 文件的压缩率、数据完整性验证方式等基本信息
+xz -l nohup.log.xz 
+
+# xzcat对已压缩日志直接查看并过滤，或者 xzgrep 直接过滤
+xzcat nohup.log.xz | grep "18:29"
+</code></pre>
+<h1>加载环境变量<a class="heading-anchor" href="#jia-zai-huan-jing-bian-liang" name="jia-zai-huan-jing-bian-liang"></a></h1>
+<p>从当前目录中的 <code>.env</code> 文件中加载环境变量</p>
+<pre><code class="language-bash">export $(grep -v '^#' .env | xargs -0)
+</code></pre>
+<h1>find 搜索<a class="heading-anchor" href="#find-sou-suo" name="find-sou-suo"></a></h1>
+<pre><code class="language-bash">find /Users/dayu/Coder -type d \( -name target -o -name node_modules -o .git \) -prune -o -type d -name "pages" -print 2&gt;/dev/null
+</code></pre>
+<h2>命令概述<a class="heading-anchor" href="#ming-ling-gai-shu" name="ming-ling-gai-shu"></a></h2>
+<p>在 <code>/Users/dayu/Coder</code> 目录下搜索所有名为 <strong><code>pages</code></strong> 的<strong>目录</strong>，同时排除（跳过）不需要搜索的目录。</p>
+<h2>核心功能<a class="heading-anchor" href="#he-xin-gong-neng" name="he-xin-gong-neng"></a></h2>
+<ul>
+<li><strong>搜索目标</strong>：查找所有名为 <code>pages</code> 的目录</li>
+<li><strong>搜索范围</strong>：<code>/Users/dayu/Coder</code> 及其子目录</li>
+<li><strong>排除目录</strong>：自动跳过 <code>target</code>、<code>node_modules</code>、<code>.git</code> 这三个目录及其所有子目录</li>
+</ul>
+<h2>技术特点<a class="heading-anchor" href="#ji-shu-te-dian" name="ji-shu-te-dian"></a></h2>
+<ul>
+<li>使用 <code>-prune</code> 参数直接跳过排除目录，提高搜索效率</li>
+<li>使用 <code>-o</code> (OR) 组合多个条件</li>
+<li>将错误信息重定向到 <code>/dev/null</code>，避免权限错误等干扰输出</li>
+</ul>
+<h2>输出结果<a class="heading-anchor" href="#shu-chu-jie-guo" name="shu-chu-jie-guo"></a></h2>
+<ul>
+<li>只显示匹配的 <code>pages</code> 目录的完整路径</li>
+<li>每行一个路径，例如：
+<pre><code class="syn-code"><span class="syn-text syn-plain">/Users/dayu/Coder/project1/pages
+/Users/dayu/Coder/project2/src/pages
+</span></code></pre>
+</li>
+</ul>
+<h2>适用场景<a class="heading-anchor" href="#gua-yong-chang-jing" name="gua-yong-chang-jing"></a></h2>
+<p>特别适合在开发环境中搜索，避免被依赖目录（node_modules）、构建目录（target）和版本控制目录（.git）中的大量无关文件干扰搜索结果。</p>
+<p>必须要加 <code>-print</code>，否则可能不同的平台输出有差异，我在 MacOS 上会输出前半段匹配的路径。</p>
+<hr class="footnote-definitions-separator">
+<div class="footnote-definition" id="eg"><span class="footnote-definition-label">1</span>
+<p><a href="https://www.ruanyifeng.com/blog/2005/09/egie.html">你能分清e.g.和i.e.吗？ - 阮一峰的网络日志</a></p>
+</div>
+</article></main><div data-vt-swap="post-nav"><div class="mt-auto"><nav class="app-layout mt-8 flex flex-col gap-6 border-t border-muted pt-4 pb-4 sm:flex-row sm:justify-between sm:gap-6"><a class="group inline-flex items-center gap-1 hover:text-accent group/nav text-accent w-full max-w-full items-start no-underline sm:w-[48%] sm:max-w-[48%] " href="/posts/postgresql-tips-95cd2ac5b4f1.html"><span class="flex min-w-0 w-full flex-col gap-0.5 overflow-hidden"><span class="text-muted-foreground text-xs tracking-wide">上一篇</span><span class="flex min-w-0 gap-1.5 decoration-dashed underline-offset-4 group-hover/nav:underline"><span aria-hidden="true" class="shrink-0">←</span><span class="min-w-0 truncate">PostgreSQL三板斧</span></span></span></a><a class="group inline-flex items-center gap-1 hover:text-accent group/nav text-accent ml-auto w-full max-w-full items-end no-underline sm:w-[48%] sm:max-w-[48%] " href="/posts/bei-an-zhu-ti-bei-wo-bu-xiao-xin-zhu-xiao-liao-360ea963f8bc.html"><span class="flex min-w-0 w-full flex-col items-end gap-0.5 overflow-hidden"><span class="text-muted-foreground text-xs tracking-wide">下一篇</span><span class="flex min-w-0 max-w-full gap-1.5 text-end decoration-dashed underline-offset-4 group-hover/nav:underline"><span class="min-w-0 truncate">备案主体被我不小心注销了</span><span aria-hidden="true" class="shrink-0">→</span></span></span></a></nav></div></div><footer class="app-layout border-t border-muted "><div class="flex flex-col items-center gap-3 py-4 sm:gap-4 justify-between sm:flex-row-reverse"><div class="flex flex-wrap items-center gap-4 text-sm"><a class="inline-flex items-center leading-none text-accent hover:underline decoration-dashed underline-offset-4" href="https://abox.cc" rel="noopener noreferrer" target="_blank" title="妙盒Abox">妙盒Abox</a><a class="inline-flex items-center leading-none text-accent hover:underline decoration-dashed underline-offset-4" href="https://ys.dayu.me" rel="noopener noreferrer" target="_blank" title="养生">养生</a><a class="inline-flex items-center leading-none text-accent hover:underline decoration-dashed underline-offset-4" href="https://sh.dayu.me" rel="noopener noreferrer" target="_blank" title="生·活">生·活</a><a class="inline-flex items-center leading-none text-accent hover:underline decoration-dashed underline-offset-4" href="https://zy.dayu.me" rel="noopener noreferrer" target="_blank" title="中医之路">中医之路</a><a class="inline-flex items-center leading-none text-accent hover:underline decoration-dashed underline-offset-4" href="https://tehaochi.cn" rel="noopener noreferrer" target="_blank" title="特好吃">特好吃</a></div><div class="whitespace-nowrap text-sm text-muted-foreground"><span>©2026</span><span class="ml-1.5"><a class="text-foreground hover:underline decoration-dashed underline-offset-4" href="https://dayu.me">大余之道</a></span></div></div></footer><div><script data-website-id="45f1aff8-8616-4f52-9cd1-1ce9b97a6caf" defer="" src="https://aa.daobox.cc/script.js"></script></div><script src="/assets/paper.O2X6LKPD.js"></script><script src="/assets/plugin-in-search.3QMPSNC4.js"></script></body></html>
