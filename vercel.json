@@ -1,0 +1,600 @@
+{
+  "redirects": [
+    {
+      "source": "/f/tb",
+      "destination": "/posts/gong-ju-xiang-073dcc4b905e.html",
+      "permanent": false
+    },
+    {
+      "source": "/f/toolbox",
+      "destination": "/posts/gong-ju-xiang-073dcc4b905e.html",
+      "permanent": false
+    },
+    {
+      "source": "/f/flash",
+      "destination": "/posts/flash-huai-jiu-b5538f59222e.html",
+      "permanent": false
+    },
+    {
+      "source": "/:path((?!posts/sui-gan-2024-01-26).+)-110fba75c9d0.html",
+      "destination": "/posts/sui-gan-2024-01-26-110fba75c9d0.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/rustpian).+)-16eb7183e991.html",
+      "destination": "/posts/rustpian-16eb7183e991.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/flash-huai-jiu).+)-b5538f59222e.html",
+      "destination": "/posts/flash-huai-jiu-b5538f59222e.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/aizuo-wen-ni-ruo-sheng-kai-hu-die-zi-lai).+)-8aec106c4e0c.html",
+      "destination": "/posts/aizuo-wen-ni-ruo-sheng-kai-hu-die-zi-lai-8aec106c4e0c.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/zen-yang-geng-hao-di-ying-yong-zi-ji-de-zi-liao-ku).+)-f617fb047906.html",
+      "destination": "/posts/zen-yang-geng-hao-di-ying-yong-zi-ji-de-zi-liao-ku-f617fb047906.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/te-hao-chi-ip).+)-23a4da3b96fb.html",
+      "destination": "/posts/te-hao-chi-ip-23a4da3b96fb.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/gui-automation).+)-117265d805b7.html",
+      "destination": "/posts/gui-automation-117265d805b7.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/zhe-si-gun-ni-you-duo-zi-lu-jiu-you-duo-zi-you).+)-7e0f77b9a5d0.html",
+      "destination": "/posts/zhe-si-gun-ni-you-duo-zi-lu-jiu-you-duo-zi-you-7e0f77b9a5d0.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/si-dao-zhi-wu-chang-1).+)-088ac1808634.html",
+      "destination": "/posts/si-dao-zhi-wu-chang-1-088ac1808634.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/rust-cross-builder).+)-90de01f01ec1.html",
+      "destination": "/posts/rust-cross-builder-90de01f01ec1.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/la-de-hao).+)-406fdc5f4ad6.html",
+      "destination": "/posts/la-de-hao-406fdc5f4ad6.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/npm-create-app).+)-94db2be535a3.html",
+      "destination": "/posts/npm-create-app-94db2be535a3.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/chan-pin-gui-hua).+)-2f64ab0d65f1.html",
+      "destination": "/posts/chan-pin-gui-hua-2f64ab0d65f1.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/ri-chang-bi-xiu-ke-jian-kang-yin-shi).+)-06b89c747eed.html",
+      "destination": "/posts/ri-chang-bi-xiu-ke-jian-kang-yin-shi-06b89c747eed.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/everkm-note-v2).+)-fdfba5daf9c8.html",
+      "destination": "/posts/everkm-note-v2-fdfba5daf9c8.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/my-website-forever).+)-5e9a4e5a88e0.html",
+      "destination": "/posts/my-website-forever-5e9a4e5a88e0.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/ubuntu-tips).+)-bb0f5c01aab1.html",
+      "destination": "/posts/ubuntu-tips-bb0f5c01aab1.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/send-message-by-tg-bot).+)-7cd81824f220.html",
+      "destination": "/posts/send-message-by-tg-bot-7cd81824f220.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/qu-kuai-lian).+)-18753c5fd46c.html",
+      "destination": "/posts/qu-kuai-lian-18753c5fd46c.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/k8s-tips).+)-49d9812cb0e0.html",
+      "destination": "/posts/k8s-tips-49d9812cb0e0.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/githubtie-shi).+)-f14eeb18d65e.html",
+      "destination": "/posts/githubtie-shi-f14eeb18d65e.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/awesome-xiang-mu-2024).+)-9622a3dbab6e.html",
+      "destination": "/posts/awesome-xiang-mu-2024-9622a3dbab6e.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/wechat-dev).+)-8706663ec63d.html",
+      "destination": "/posts/wechat-dev-8706663ec63d.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/color-starter).+)-b5fc93abbdf3.html",
+      "destination": "/posts/color-starter-b5fc93abbdf3.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/ji-hua-ben-lai-de-yang-zi).+)-8e6ceb5f54fc.html",
+      "destination": "/posts/ji-hua-ben-lai-de-yang-zi-8e6ceb5f54fc.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/web-jie-mian-she-ji).+)-a2e5a646eebf.html",
+      "destination": "/posts/web-jie-mian-she-ji-a2e5a646eebf.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/chun-wen-ben-de-kuai-le).+)-bbd3d54f0fdc.html",
+      "destination": "/posts/chun-wen-ben-de-kuai-le-bbd3d54f0fdc.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/ri-chang-bi-xiu-ke-ti-li-yun-dong-kai-shi).+)-88b968a28796.html",
+      "destination": "/posts/ri-chang-bi-xiu-ke-ti-li-yun-dong-kai-shi-88b968a28796.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/sqlite-tips).+)-54a7273e9fdb.html",
+      "destination": "/posts/sqlite-tips-54a7273e9fdb.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/zen-yang-cai-suan-shi-kao-pu-de-ren).+)-547619e953f1.html",
+      "destination": "/posts/zen-yang-cai-suan-shi-kao-pu-de-ren-547619e953f1.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/android-tips).+)-ca7bc82f1954.html",
+      "destination": "/posts/android-tips-ca7bc82f1954.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/ffmpegsan-ban-fu).+)-d795a93c8ae3.html",
+      "destination": "/posts/ffmpegsan-ban-fu-d795a93c8ae3.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/apizi-dong-hua-ce-shi-she-ji-fang-an).+)-3631fe1826de.html",
+      "destination": "/posts/apizi-dong-hua-ce-shi-she-ji-fang-an-3631fe1826de.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/23nian-qiu-you-you-da-hua-shan).+)-89f490803b11.html",
+      "destination": "/posts/23nian-qiu-you-you-da-hua-shan-89f490803b11.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/sui-bi-20260822).+)-2c4e915a183f.html",
+      "destination": "/posts/sui-bi-20260822-2c4e915a183f.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/zen-me-cai-neng-gao-xiao-ji-yi).+)-5f84d3f31f83.html",
+      "destination": "/posts/zen-me-cai-neng-gao-xiao-ji-yi-5f84d3f31f83.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/rust-build-on-windows-10).+)-b68d21ade94f.html",
+      "destination": "/posts/rust-build-on-windows-10-b68d21ade94f.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/si-kao-kuai-yu-man).+)-1c938d8bfc67.html",
+      "destination": "/posts/si-kao-kuai-yu-man-1c938d8bfc67.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/it-toolbox).+)-19e1cc17283d.html",
+      "destination": "/posts/it-toolbox-19e1cc17283d.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/windows-xi-tong-an-zhuang).+)-b78481fc4e69.html",
+      "destination": "/posts/windows-xi-tong-an-zhuang-b78481fc4e69.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/tuo-fu-zhong-shen-de-chan-pin).+)-5b155c964288.html",
+      "destination": "/posts/tuo-fu-zhong-shen-de-chan-pin-5b155c964288.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/css-sticky).+)-c5d4c63824f6.html",
+      "destination": "/posts/css-sticky-c5d4c63824f6.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/liu-cheng-tu-xiao-lu).+)-28f88432f142.html",
+      "destination": "/posts/liu-cheng-tu-xiao-lu-28f88432f142.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/zhi-zuo-zhi-shi-ku).+)-84751f12cc9a.html",
+      "destination": "/posts/zhi-zuo-zhi-shi-ku-84751f12cc9a.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/come-back).+)-950f928e7602.html",
+      "destination": "/posts/come-back-950f928e7602.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/shen-me-yang-de-xue-xi-fang-fa-geng-you-xiao).+)-5a12d6b76034.html",
+      "destination": "/posts/shen-me-yang-de-xue-xi-fang-fa-geng-you-xiao-5a12d6b76034.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/ri-chang-cao-zuo).+)-5948bf2ed7d4.html",
+      "destination": "/posts/ri-chang-cao-zuo-5948bf2ed7d4.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/fonts).+)-6f4d90891c02.html",
+      "destination": "/posts/fonts-6f4d90891c02.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/jian-kang-de-chu-bu-ren-shi).+)-ab7cac547e27.html",
+      "destination": "/posts/jian-kang-de-chu-bu-ren-shi-ab7cac547e27.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/macos-15).+)-7daa42b38c23.html",
+      "destination": "/posts/macos-15-7daa42b38c23.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/pandoczhuan-huan).+)-5d7d1bb70cc7.html",
+      "destination": "/posts/pandoczhuan-huan-5d7d1bb70cc7.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/gong-ju-xiang).+)-073dcc4b905e.html",
+      "destination": "/posts/gong-ju-xiang-073dcc4b905e.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/macos-tips).+)-84a8c4663131.html",
+      "destination": "/posts/macos-tips-84a8c4663131.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/hello-dayu).+)-eda90cc4936c.html",
+      "destination": "/posts/hello-dayu-eda90cc4936c.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/zui-jin-you-liao-xiang-xie-zuo-de-chong-dong).+)-44c366f0552e.html",
+      "destination": "/posts/zui-jin-you-liao-xiang-xie-zuo-de-chong-dong-44c366f0552e.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/yi-tang-chuang-ye-ke).+)-6324b1cf3eae.html",
+      "destination": "/posts/yi-tang-chuang-ye-ke-6324b1cf3eae.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/shui-de-hao).+)-a1c41968ad5b.html",
+      "destination": "/posts/shui-de-hao-a1c41968ad5b.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/wo-geng-xi-huan-jian-ji-dian-er-de-shu-ji).+)-f5db6f7ee2fe.html",
+      "destination": "/posts/wo-geng-xi-huan-jian-ji-dian-er-de-shu-ji-f5db6f7ee2fe.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/qian-yi-dao-daobox).+)-ad1efd81a217.html",
+      "destination": "/posts/qian-yi-dao-daobox-ad1efd81a217.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/ru-he-zuo-nei-rong).+)-4ab2f21980b2.html",
+      "destination": "/posts/ru-he-zuo-nei-rong-4ab2f21980b2.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/wo-shi-ren-zhen-de-ma).+)-42ecde497ef2.html",
+      "destination": "/posts/wo-shi-ren-zhen-de-ma-42ecde497ef2.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/ubuntu-server-init).+)-2ca52745c545.html",
+      "destination": "/posts/ubuntu-server-init-2ca52745c545.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/zhai-lu-wo-jue-ding-jiang-ji-xiao-fei).+)-7d40981e71c6.html",
+      "destination": "/posts/zhai-lu-wo-jue-ding-jiang-ji-xiao-fei-7d40981e71c6.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/yin-shi-pin-zhuan-huan).+)-729ffa32c9eb.html",
+      "destination": "/posts/yin-shi-pin-zhuan-huan-729ffa32c9eb.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/ji-qi-zhi-wen-ji-suan).+)-31e35ca2fb8f.html",
+      "destination": "/posts/ji-qi-zhi-wen-ji-suan-31e35ca2fb8f.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/nei-rong-zhan-she-ji-can-kao).+)-486abb45aad0.html",
+      "destination": "/posts/nei-rong-zhan-she-ji-can-kao-486abb45aad0.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/huo-qu-jian-kang-xiang-shang-de-sheng-huo-hen-nan-ma).+)-811c9caf3efb.html",
+      "destination": "/posts/huo-qu-jian-kang-xiang-shang-de-sheng-huo-hen-nan-ma-811c9caf3efb.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/chan-pin-leng-qi-dong).+)-73ed9e265178.html",
+      "destination": "/posts/chan-pin-leng-qi-dong-73ed9e265178.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/bei-an-zhu-ti-bei-wo-bu-xiao-xin-zhu-xiao-liao).+)-360ea963f8bc.html",
+      "destination": "/posts/bei-an-zhu-ti-bei-wo-bu-xiao-xin-zhu-xiao-liao-360ea963f8bc.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/ri-chang-bi-xiu-ke-ming-xiang).+)-1e12a506ec5c.html",
+      "destination": "/posts/ri-chang-bi-xiu-ke-ming-xiang-1e12a506ec5c.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/er-long-hu-chun-nuan-hua-kai-san).+)-b2b8232610e8.html",
+      "destination": "/posts/er-long-hu-chun-nuan-hua-kai-san-b2b8232610e8.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/algolia-ji-shi-sou-suo).+)-67d1c3def0e8.html",
+      "destination": "/posts/algolia-ji-shi-sou-suo-67d1c3def0e8.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/shi-wu-de-fu-za-xing).+)-d4716f4377d8.html",
+      "destination": "/posts/shi-wu-de-fu-za-xing-d4716f4377d8.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/redis-tips).+)-cd756d6edca6.html",
+      "destination": "/posts/redis-tips-cd756d6edca6.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/ling-gan).+)-536bd5f01857.html",
+      "destination": "/posts/ling-gan-536bd5f01857.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/zhen-shi-zai-ju-ben-li).+)-5a0bee53cebb.html",
+      "destination": "/posts/zhen-shi-zai-ju-ben-li-5a0bee53cebb.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/zhi-huo-ying-ren-zhe).+)-633c1744dfcc.html",
+      "destination": "/posts/zhi-huo-ying-ren-zhe-633c1744dfcc.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/git).+)-f330deaddca5.html",
+      "destination": "/posts/git-f330deaddca5.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/tu-pian-su-cai).+)-51cae01d3d01.html",
+      "destination": "/posts/tu-pian-su-cai-51cae01d3d01.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/docker-tips).+)-d7e037055f8a.html",
+      "destination": "/posts/docker-tips-d7e037055f8a.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/gan-jue-bei-tao-kong).+)-7fccb58c9ccc.html",
+      "destination": "/posts/gan-jue-bei-tao-kong-7fccb58c9ccc.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/jing-shen-yu-yue).+)-5803a2d14c2c.html",
+      "destination": "/posts/jing-shen-yu-yue-5803a2d14c2c.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/nginxsan-ban-fu).+)-1685b8a9c6df.html",
+      "destination": "/posts/nginxsan-ban-fu-1685b8a9c6df.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/hello-seo).+)-04b62061431f.html",
+      "destination": "/posts/hello-seo-04b62061431f.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/android-native-crash-debug).+)-7fb3fbf2934f.html",
+      "destination": "/posts/android-native-crash-debug-7fb3fbf2934f.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/chrome-extension).+)-9d6ca4c6643e.html",
+      "destination": "/posts/chrome-extension-9d6ca4c6643e.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/bash-screen).+)-cb6a6a98b4af.html",
+      "destination": "/posts/bash-screen-cb6a6a98b4af.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/mian-fei-sslzheng-shu).+)-8ffc4ab361d8.html",
+      "destination": "/posts/mian-fei-sslzheng-shu-8ffc4ab361d8.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/rustbi-bao-han-shu-pa-keng-zhi-zuo-wei-can-shu).+)-659b6d238c28.html",
+      "destination": "/posts/rustbi-bao-han-shu-pa-keng-zhi-zuo-wei-can-shu-659b6d238c28.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/cargotian-jia-git-sshyi-lai).+)-821717bb0c7b.html",
+      "destination": "/posts/cargotian-jia-git-sshyi-lai-821717bb0c7b.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/jenkinsbei-cha).+)-34be047d7d6e.html",
+      "destination": "/posts/jenkinsbei-cha-34be047d7d6e.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/lu-shang-zou-chu-lai-de).+)-33ab2c4feeee.html",
+      "destination": "/posts/lu-shang-zou-chu-lai-de-33ab2c4feeee.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/zheng-ze-qian-zhan-pi-pei).+)-133bcc3c473f.html",
+      "destination": "/posts/zheng-ze-qian-zhan-pi-pei-133bcc3c473f.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/pao-bu-shi-bu-shi-zui-hao-de-yun-dong).+)-7e1686f5bb68.html",
+      "destination": "/posts/pao-bu-shi-bu-shi-zui-hao-de-yun-dong-7e1686f5bb68.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/fang-xiang-xuan-ze-de-kun-jing).+)-fd38c923f2ca.html",
+      "destination": "/posts/fang-xiang-xuan-ze-de-kun-jing-fd38c923f2ca.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/daobox-extend-markdown).+)-c87de2a928ca.html",
+      "destination": "/posts/daobox-extend-markdown-c87de2a928ca.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/gua-dang-yun-dong).+)-5e1e40ef7600.html",
+      "destination": "/posts/gua-dang-yun-dong-5e1e40ef7600.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/css-flex-grid).+)-cd437b95913c.html",
+      "destination": "/posts/css-flex-grid-cd437b95913c.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/xue-xi-ru-he-si-kao-san).+)-24c1a6130bd8.html",
+      "destination": "/posts/xue-xi-ru-he-si-kao-san-24c1a6130bd8.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/xue-xi-ru-he-si-kao).+)-e3565c06b665.html",
+      "destination": "/posts/xue-xi-ru-he-si-kao-e3565c06b665.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/jiu-zhe-me-kai-shi-liao).+)-06bcd5bee764.html",
+      "destination": "/posts/jiu-zhe-me-kai-shi-liao-06bcd5bee764.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/zao-sheng-zhai-lu).+)-0494793fc31f.html",
+      "destination": "/posts/zao-sheng-zhai-lu-0494793fc31f.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/open-source-license).+)-23a2e5c89d42.html",
+      "destination": "/posts/open-source-license-23a2e5c89d42.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/kan-hua-rong-yi-xiu-hua-nan).+)-f085bdb55662.html",
+      "destination": "/posts/kan-hua-rong-yi-xiu-hua-nan-f085bdb55662.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/xue-xi-ru-he-si-kao-er).+)-03609efb4ff4.html",
+      "destination": "/posts/xue-xi-ru-he-si-kao-er-03609efb4ff4.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/nao-tu-shi-xian).+)-106258edbe18.html",
+      "destination": "/posts/nao-tu-shi-xian-106258edbe18.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/mac-docker-colima).+)-7e5e7c4adac5.html",
+      "destination": "/posts/mac-docker-colima-7e5e7c4adac5.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/postgresql-tips).+)-95cd2ac5b4f1.html",
+      "destination": "/posts/postgresql-tips-95cd2ac5b4f1.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/rust-frontend-leptos).+)-6d8f17ebf777.html",
+      "destination": "/posts/rust-frontend-leptos-6d8f17ebf777.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/ri-chang-bi-xiu-ke-yue-du-kai-gua).+)-00b41f347a3f.html",
+      "destination": "/posts/ri-chang-bi-xiu-ke-yue-du-kai-gua-00b41f347a3f.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/jian-chi-de-yi-yi).+)-16766cb71d7e.html",
+      "destination": "/posts/jian-chi-de-yi-yi-16766cb71d7e.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/tree-shaking).+)-eaa89be1cb65.html",
+      "destination": "/posts/tree-shaking-eaa89be1cb65.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/an-kang-yuan-qi).+)-d57937d88a3e.html",
+      "destination": "/posts/an-kang-yuan-qi-d57937d88a3e.html",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!posts/makefile).+)-38fca68b5416.html",
+      "destination": "/posts/makefile-38fca68b5416.html",
+      "permanent": true
+    },
+    {
+      "source": "/abox",
+      "destination": "https://abox.co",
+      "permanent": false
+    },
+    {
+      "source": "/ysp",
+      "destination": "http://jcold.ysepan.com/",
+      "permanent": false
+    }
+  ],
+  "rewrites": []
+}
