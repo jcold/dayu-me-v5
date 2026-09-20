@@ -1,0 +1,76 @@
+{
+  "ok": true,
+  "result": [
+    {
+      "update_id": 693610363,
+      "message": {
+        "message_id": 1,
+        "from": {
+          "id": 6499434637,
+          "is_bot": false,
+          "first_name": "jcold",
+          "last_name": "yu",
+          "username": "Jcoldyu",
+          "language_code": "zh-hans"
+        },
+        "chat": {
+          "id": 6499434637,
+          "first_name": "jcold",
+          "last_name": "yu",
+          "username": "Jcoldyu",
+          "type": "private"
+        },
+        "date": 1711008156,
+        "text": "/start",
+        "entities": [{ "offset": 0, "length": 6, "type": "bot_command" }]
+      }
+    },
+    {
+      "update_id": 693610364,
+      "message": {
+        "message_id": 2,
+        "from": {
+          "id": 6499434637,
+          "is_bot": false,
+          "first_name": "jcold",
+          "last_name": "yu",
+          "username": "Jcoldyu",
+          "language_code": "zh-hans"
+        },
+        "chat": {
+          "id": 6499434637,
+          "first_name": "jcold",
+          "last_name": "yu",
+          "username": "Jcoldyu",
+          "type": "private"
+        },
+        "date": 1711008160,
+        "text": "hello"
+      }
+    },
+    {
+      "update_id": 693610365,
+      "message": {
+        "message_id": 3,
+        "from": {
+          "id": 6499434637,
+          "is_bot": false,
+          "first_name": "jcold",
+          "last_name": "yu",
+          "username": "Jcoldyu",
+          "language_code": "zh-hans"
+        },
+        "chat": {
+          "id": 6499434637,
+          "first_name": "jcold",
+          "last_name": "yu",
+          "username": "Jcoldyu",
+          "type": "private"
+        },
+        "date": 1711008311,
+        "text": "/start",
+        "entities": [{ "offset": 0, "length": 6, "type": "bot_command" }]
+      }
+    }
+  ]
+}

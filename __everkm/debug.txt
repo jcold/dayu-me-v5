@@ -1,0 +1,929 @@
+/Users/dayu/Coder/everkm/everkm2/be/everkm-publish/target/debug/everkm-publish
+everkm-publish 0.17.0
+[2m2026-06-06T08:27:34.972393Z[0m [32m INFO[0m [2meverkm_publish::serve[0m[2m:[0m serve args: ServeArgs { theme_dir: Some("/Users/dayu/Coder/everkm/daobox-site-themes/theme-youlog/__everkm/theme/youlog"), theme: Some("youlog"), theme_dev: true, work_dir: "../", dist_dir: None, cdn_prefix: None, base_prefix: "", relative_link: false, listen: "127.0.0.1:9081", export: false, start_urls: None, stop_urls: [], lang: None, env_is_preview: true, config: None, title_selector: None, with_publish_map: false, with_nginx_map: false, with_vercel: false, export_workers: 0, with_extend_md_meta: false, ignore_dcard_errors: false, auto_fix_on_update: true, lazy_img: true }
+[2m2026-06-06T08:27:34.974712Z[0m [32m INFO[0m [2meverkm_publish::serve[0m[2m:[0m work dir: /Users/dayu/Coder/everkm/youlog-dayu/dayu-me3
+[2m2026-06-06T08:27:34.975004Z[0m [32m INFO[0m [2meverkm_publish::serve[0m[2m:[0m theme dir: /Users/dayu/Coder/everkm/daobox-site-themes/theme-youlog/__everkm/theme/youlog, dev mode: true
+[2m2026-06-06T08:27:34.977028Z[0m [32m INFO[0m [2meverkm_publish::engine_factory[0m[2m:[0m sqlite db: /Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/cache/everkm-publish.db
+[2m2026-06-06T08:27:35.036032Z[0m [32m INFO[0m [2msea_orm_migration::migrator[0m[2m:[0m Applying all pending migrations
+[2m2026-06-06T08:27:35.037279Z[0m [32m INFO[0m [2msea_orm_migration::migrator[0m[2m:[0m Applying migration 'm20260601_000001_init'
+[2m2026-06-06T08:27:35.042837Z[0m [32m INFO[0m [2msea_orm_migration::migrator[0m[2m:[0m Migration 'm20260601_000001_init' has been applied
+[2m2026-06-06T08:27:35.044304Z[0m [32m INFO[0m [2msea_orm_migration::migrator[0m[2m:[0m Applying migration 'm20260602_000002_ref_def'
+[2m2026-06-06T08:27:35.045315Z[0m [32m INFO[0m [2msea_orm_migration::migrator[0m[2m:[0m Migration 'm20260602_000002_ref_def' has been applied
+[2m2026-06-06T08:27:35.045663Z[0m [32m INFO[0m [2msea_orm_migration::migrator[0m[2m:[0m Applying migration 'm20260603_000003_path_title_rev'
+[2m2026-06-06T08:27:35.046724Z[0m [32m INFO[0m [2msea_orm_migration::migrator[0m[2m:[0m Migration 'm20260603_000003_path_title_rev' has been applied
+[2m2026-06-06T08:27:35.057163Z[0m [32m INFO[0m [2meverkm_publish::engine_factory[0m[2m:[0m sqlite storage initialized
+[2m2026-06-06T08:27:35.059858Z[0m [32m INFO[0m [2meverkm_publish::watcher[0m[2m:[0m file watcher serve at dir: /Users/dayu/Coder/everkm/daobox-site-themes/theme-youlog/__everkm/theme/youlog
+[2m2026-06-06T08:27:35.060234Z[0m [32m INFO[0m [2meverkm_publish::serve[0m[2m:[0m TemplateParse job start...
+[2m2026-06-06T08:27:35.065075Z[0m [32m INFO[0m [2meverkm_publish::watcher[0m[2m:[0m file watcher serve at dir: /Users/dayu/Coder/everkm/youlog-dayu/dayu-me3
+[2m2026-06-06T08:27:35.083270Z[0m [32m INFO[0m [2mimg_assets[0m[2m:[0m images released: {}
+[2m2026-06-06T08:27:35.084090Z[0m [32m INFO[0m [2mimg_assets[0m[2m:[0m no images referenced, skip img-manifest.json
+[2m2026-06-06T08:27:35.085547Z[0m [32m INFO[0m [2meverkm_publish_core::theme::loader[0m[2m:[0m templates dir: /Users/dayu/Coder/everkm/daobox-site-themes/theme-youlog/__everkm/theme/youlog/templates
+[2m2026-06-06T08:27:35.085632Z[0m [32m INFO[0m [2meverkm_publish_core::theme::loader[0m[2m:[0m manifest dir: /Users/dayu/Coder/everkm/daobox-site-themes/theme-youlog/__everkm/theme/youlog
+[2m2026-06-06T08:27:35.091692Z[0m [32m INFO[0m [2mi18n::lang[0m[2m:[0m i18n loaded, [LangDataSource { file_path: "/Users/dayu/Coder/everkm/daobox-site-themes/theme-youlog/__everkm/theme/youlog/templates/_i18n/en_US/common.en_US.i18n.md", code: "en_US", namespace: Some("common") }, LangDataSource { file_path: "/Users/dayu/Coder/everkm/daobox-site-themes/theme-youlog/__everkm/theme/youlog/templates/_i18n/en_US/en_US.i18n.md", code: "en_US", namespace: None }, LangDataSource { file_path: "/Users/dayu/Coder/everkm/daobox-site-themes/theme-youlog/__everkm/theme/youlog/templates/_i18n/zh_CN/common.zh_CN.i18n.md", code: "zh_CN", namespace: Some("common") }, LangDataSource { file_path: "/Users/dayu/Coder/everkm/daobox-site-themes/theme-youlog/__everkm/theme/youlog/templates/_i18n/zh_CN/zh_CN.i18n.md", code: "zh_CN", namespace: None }]
+[2m2026-06-06T08:27:35.170445Z[0m [33m WARN[0m [2mtpls::assets[0m[2m:[0m not found img-manifest.json
+[2m2026-06-06T08:27:35.172653Z[0m [32m INFO[0m [2meverkm_publish_core::theme::loader[0m[2m:[0m load project dcard from: /Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__dcard
+[2m2026-06-06T08:27:35.175193Z[0m [32m INFO[0m [2meverkm_publish_core::theme::loader[0m[2m:[0m project dcard loaded: ["flash_player/flash_player.dcard.js", "flash_player/flash_player.dcard.yaml"]
+[2m2026-06-06T08:27:35.177636Z[0m [32m INFO[0m [2meverkm_publish_core::theme::loader[0m[2m:[0m templates loaded, count: 12, names: ["__dcard/player/player.dcard.js", "__dcard/top_items.dcard.html", "__dcard/list.dcard.html", "theme-demo/color-green.html", "theme-demo/color-blue.html", "theme-demo/index.html", "icons.html", "_layout.html", "book.html", "__dcard/player/player.dcard.yaml", "flash_player/flash_player.dcard.js", "flash_player/flash_player.dcard.yaml"]
+[2m2026-06-06T08:27:35.184477Z[0m [34mDEBUG[0m [2meverkm_publish::serve[0m[2m:[0m update template context
+[2m2026-06-06T08:27:35.188735Z[0m [34mDEBUG[0m [2meverkm_publish::serve[0m[2m:[0m update js render
+[2m2026-06-06T08:27:35.189794Z[0m [32m INFO[0m [2meverkm_publish_core::js_render::render[0m[2m:[0m js render worker #0 start, boot script: /Users/dayu/Coder/everkm/daobox-site-themes/theme-youlog/__everkm/theme/youlog/templates/everkm-render.js
+[2m2026-06-06T08:27:35.189779Z[0m [32m INFO[0m [2meverkm_publish_core::js_render::render[0m[2m:[0m js render worker #1 start, boot script: /Users/dayu/Coder/everkm/daobox-site-themes/theme-youlog/__everkm/theme/youlog/templates/everkm-render.js
+[2m2026-06-06T08:27:35.189828Z[0m [32m INFO[0m [2meverkm_publish::serve[0m[2m:[0m use everkm config: /Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/everkm.yaml
+[2m2026-06-06T08:27:35.189779Z[0m [32m INFO[0m [2meverkm_publish_core::js_render::render[0m[2m:[0m js render worker #2 start, boot script: /Users/dayu/Coder/everkm/daobox-site-themes/theme-youlog/__everkm/theme/youlog/templates/everkm-render.js
+[2m2026-06-06T08:27:35.189959Z[0m [32m INFO[0m [2meverkm_publish::serve[0m[2m:[0m ConfigParse job start...
+[2m2026-06-06T08:27:35.191791Z[0m [34mDEBUG[0m [2meverkm_publish::config[0m[2m:[0m loaded everkm config: {"config":{"algolia_search":{"api_key":"95bb37e3122ee9cb57a8ee0abbd14409","app_id":"1N74YC70XF","index_name":"dayu_me","site":"dayu.me"},"bottom_nav":[{"new_window":true,"title":"Everkm","url":"https://www.everkm.cn"},{"title":"Abox","url":"https://abox.co"}],"copyright":{"link":"https://dayu.me","text":"大余之道"},"default_lang":"zh_CN","features":{"code_highlight":true,"katex_formula":true},"header_nav":[{"title":"Abox.co","url":"https://abox.co"},{"children":[{"title":"养生","url":"https://ys.dayu.me"},{"title":"生·活","url":"https://sh.dayu.me"},{"title":"中医之路","url":"https://zy.dayu.me"},{"title":"特好吃","url":"https://tehaochi.cn"}],"title":"兴趣爱好"}],"page_size":12,"site":{"beian":null,"contact":"联系方式：dayu[at]dayu.me，请注意替换@。","description":"大余的修行日志。","host":"dayu.me","keywords":"大余, 道盒, dayu","name":"🌾大余之道","summary":"资质平平的互联网从业者，至今碌碌无为，毫无建树，但始终坚信未来可期的大龄码农。"},"yousha":{"community":"dayu"}},"inject_css":[{"url":"assets/my.css","match_path":null}],"redirects":[{"source":"/abox","destination":"https://abox.co","permanent":false},{"source":"/ysp","destination":"http://jcold.ysepan.com/","permanent":false}]}
+[2m2026-06-06T08:27:35.228049Z[0m [34mDEBUG[0m [2meverkm_publish::storage::sqlite_index[0m[2m:[0m dir_merged rebuilt: 314 entries, 0 dirs with index post
+[2m2026-06-06T08:27:35.228567Z[0m [34mDEBUG[0m [2meverkm_publish::serve[0m[2m:[0m skip url_map rebuild on ConfigParse startup; PostParse cold_start will rebuild
+[2m2026-06-06T08:27:35.229347Z[0m [32m INFO[0m [2meverkm_publish::serve[0m[2m:[0m use theme config: /Users/dayu/Coder/everkm/daobox-site-themes/theme-youlog/__everkm/theme/youlog/everkm-theme.yaml
+[2m2026-06-06T08:27:35.229438Z[0m [32m INFO[0m [2meverkm_publish::serve[0m[2m:[0m ThemeParse job start...
+[2m2026-06-06T08:27:35.229871Z[0m [34mDEBUG[0m [2meverkm_publish::config[0m[2m:[0m loaded theme config: {"name":"youlog","version":"0.4.3","author":"dayu<dayu@dayu.me>","repository":"https://github.com/everkm/theme-youlog","demo":"https://youlog.theme.everkm.com/","default_template":"book"}
+[2m2026-06-06T08:27:35.230220Z[0m [32m INFO[0m [2meverkm_publish::serve[0m[2m:[0m PostParse job start...
+[2m2026-06-06T08:27:35.807644Z[0m [34mDEBUG[0m [2meverkm_publish::storage::sqlite_index[0m[2m:[0m dir_merged rebuilt: 314 entries, 2 dirs with index post
+[2m2026-06-06T08:27:35.813727Z[0m [32m INFO[0m [2meverkm_publish::storage::fs_sync[0m[2m:[0m url_map rebuilt; more http://127.0.0.1:9081/__everkm/posts (path → URL details) [3mmarkdown_total[0m[2m=[0m112 [3mmapped[0m[2m=[0m110 [3munmapped[0m[2m=[0m2 [3maliases[0m[2m=[0m3 [3mentries[0m[2m=[0m113
+[2m2026-06-06T08:27:35.813759Z[0m [32m INFO[0m [2meverkm_publish::storage::fs_sync[0m[2m:[0m cold_start done: elapsed_ms=582, skipped=0, parsed=148, deleted=0, url_map_rebuilt=1
+[2m2026-06-06T08:27:35.813927Z[0m [32m INFO[0m [2meverkm_publish::serve[0m[2m:[0m PostFixParse job start...
+[2m2026-06-06T08:27:35.814120Z[0m [32m INFO[0m [2meverkm_publish::serve[0m[2m:[0m assets dir: /Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets
+[2m2026-06-06T08:27:35.814204Z[0m [32m INFO[0m [2meverkm_publish::static_dirs[0m[2m:[0m static dir [priority=6]: /Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets
+[2m2026-06-06T08:27:35.814215Z[0m [32m INFO[0m [2meverkm_publish::static_dirs[0m[2m:[0m static dir [priority=5]: /Users/dayu/Coder/everkm/daobox-site-themes/theme-youlog/__everkm/theme/youlog/assets
+[2m2026-06-06T08:27:35.814223Z[0m [32m INFO[0m [2meverkm_publish::static_dirs[0m[2m:[0m static dir [priority=4]: /Users/dayu/Coder/everkm/daobox-site-themes/theme-youlog/__everkm/theme/youlog/dist/assets
+[2m2026-06-06T08:27:35.814257Z[0m [32m INFO[0m [2meverkm_publish::static_dirs[0m[2m:[0m static dir [priority=3]: /Users/dayu/Coder/everkm/daobox-site-themes/theme-youlog/__everkm/theme/youlog/__assets
+[2m2026-06-06T08:27:35.814305Z[0m [32m INFO[0m [2meverkm_publish::static_dirs[0m[2m:[0m static dir [priority=2]: 
+[2m2026-06-06T08:27:35.814311Z[0m [32m INFO[0m [2meverkm_publish::static_dirs[0m[2m:[0m static dir [priority=1]: /Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/__assets
+[2m2026-06-06T08:27:35.814320Z[0m [32m INFO[0m [2meverkm_publish::static_dirs[0m[2m:[0m static dir [priority=0]: /Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__assets
+[2m2026-06-06T08:27:43.596292Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page_http[0m[2m:[0m GET: blog/docker-tips-d7e037055f8a.html, query: {}
+[2m2026-06-06T08:27:43.598806Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m full request url: /blog/docker-tips-d7e037055f8a.html
+[2m2026-06-06T08:27:43.609324Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m resolved page: ResolvedPage {
+    url_path: "/blog/docker-tips-d7e037055f8a.html",
+    logical_path: "/blog/2023/Docker篇.md",
+    post: PostItem {
+        id: "d7e037055f8a",
+        title: "Docker篇",
+        meta: {
+            "update_at": String("2023-10-22 20:19"),
+        },
+        dir: "/blog/2023/",
+        logical_path: "/blog/2023/Docker篇.md",
+        slug: "docker-tips",
+        summary: "",
+        created_at: 1694246880,
+        updated_at: 1694246880,
+        draft: false,
+        tags: [],
+        categories: [],
+        weight: 0,
+        template: None,
+        prev_id: None,
+        next_id: None,
+    },
+    template: "book",
+    url_query: None,
+    breadcrumbs: [
+        BreadcrumbItem {
+            title: "Dayu 修行日志",
+            url: "/index.html",
+            is_first: true,
+            is_last: false,
+        },
+        BreadcrumbItem {
+            title: "Hello Blog",
+            url: "/blog/index.html",
+            is_first: false,
+            is_last: false,
+        },
+        BreadcrumbItem {
+            title: "Docker篇",
+            url: "/blog/docker-tips-d7e037055f8a.html",
+            is_first: false,
+            is_last: true,
+        },
+    ],
+}
+[2m2026-06-06T08:27:43.609537Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m url map to template: blog/docker-tips-d7e037055f8a.html -> book
+[2m2026-06-06T08:27:43.618714Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /blog/2023/Docker篇.md
+[2m2026-06-06T08:27:43.629948Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/blog/2023/Docker篇.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("zEPO3jxF5B26Vaeh"))
+[2m2026-06-06T08:27:43.630788Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/blog/2023/Docker篇.md
+[2m2026-06-06T08:27:43.632452Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/blog/2023/Docker篇.md [3mpath[0m[2m=[0m/blog/2023/Docker篇.md [3mcontent_bytes[0m[2m=[0m2834 [3melapsed_ms[0m[2m=[0m13
+[2m2026-06-06T08:27:43.633956Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /_SUMMARY.md
+[2m2026-06-06T08:27:43.644047Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/_SUMMARY.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("zEPO3jxF5B26Vaeh"))
+[2m2026-06-06T08:27:43.644578Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/_SUMMARY.md
+[2m2026-06-06T08:27:43.644909Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/_SUMMARY.md [3mpath[0m[2m=[0m/_SUMMARY.md [3mcontent_bytes[0m[2m=[0m113 [3melapsed_ms[0m[2m=[0m10
+[2m2026-06-06T08:27:43.645254Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m nav indicator arg: NavIndicatorArgs { from_file: "/_SUMMARY.md", cur_page_path: "/blog/docker-tips-d7e037055f8a.html" }
+[2m2026-06-06T08:27:43.645803Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /_SUMMARY.md
+[2m2026-06-06T08:27:43.652996Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/_SUMMARY.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("zEPO3jxF5B26Vaeh"))
+[2m2026-06-06T08:27:43.653670Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/_SUMMARY.md
+[2m2026-06-06T08:27:43.654196Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/_SUMMARY.md [3mpath[0m[2m=[0m/_SUMMARY.md [3mcontent_bytes[0m[2m=[0m113 [3melapsed_ms[0m[2m=[0m8
+[2m2026-06-06T08:27:50.226841Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page_http[0m[2m:[0m GET: index.html, query: {}
+[2m2026-06-06T08:27:50.227724Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m full request url: /index.html
+[2m2026-06-06T08:27:50.230629Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m resolved page: ResolvedPage {
+    url_path: "/index.html",
+    logical_path: "/HOME.md",
+    post: PostItem {
+        id: "7ea16e4cccb8",
+        title: "Dayu 修行日志",
+        meta: {},
+        dir: "/",
+        logical_path: "/HOME.md",
+        slug: "index",
+        summary: "",
+        created_at: 1750129320,
+        updated_at: 1780648903,
+        draft: false,
+        tags: [],
+        categories: [],
+        weight: 0,
+        template: None,
+        prev_id: None,
+        next_id: None,
+    },
+    template: "book",
+    url_query: None,
+    breadcrumbs: [
+        BreadcrumbItem {
+            title: "Dayu 修行日志",
+            url: "/index.html",
+            is_first: true,
+            is_last: true,
+        },
+    ],
+}
+[2m2026-06-06T08:27:50.230755Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m url map to template: index.html -> book
+[2m2026-06-06T08:27:50.233474Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /HOME.md
+[2m2026-06-06T08:27:50.238820Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/HOME.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("IMqS82HpRHMGrEIE"))
+[2m2026-06-06T08:27:50.239574Z[0m [32m INFO[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: processing blocks [3mpath[0m[2m=[0m/HOME.md [3mblock_count[0m[2m=[0m1
+[2m2026-06-06T08:27:50.239644Z[0m [32m INFO[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: render block start [3mcard[0m[2m=[0mitems [3mformat[0m[2m=[0myaml [3mpath[0m[2m=[0m/HOME.md [3mbody_len[0m[2m=[0m64 [3mbody_preview[0m[2m=[0mdir: /bloglimit: 5order_by: updated_at# order_direction: asc
+[2m2026-06-06T08:27:50.250554Z[0m [32m INFO[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: render block ok [3mcard[0m[2m=[0mitems [3mpath[0m[2m=[0m/HOME.md [3moutput_len[0m[2m=[0m457
+[2m2026-06-06T08:27:50.251638Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/HOME.md [3mpath[0m[2m=[0m/HOME.md [3mcontent_bytes[0m[2m=[0m259 [3melapsed_ms[0m[2m=[0m17
+[2m2026-06-06T08:27:50.252510Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /_SUMMARY.md
+[2m2026-06-06T08:27:50.307817Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/_SUMMARY.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("IMqS82HpRHMGrEIE"))
+[2m2026-06-06T08:27:50.309310Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/_SUMMARY.md
+[2m2026-06-06T08:27:50.310246Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/_SUMMARY.md [3mpath[0m[2m=[0m/_SUMMARY.md [3mcontent_bytes[0m[2m=[0m113 [3melapsed_ms[0m[2m=[0m57
+[2m2026-06-06T08:27:50.310834Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m nav indicator arg: NavIndicatorArgs { from_file: "/_SUMMARY.md", cur_page_path: "/index.html" }
+[2m2026-06-06T08:27:50.312929Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /_SUMMARY.md
+[2m2026-06-06T08:27:50.330768Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/_SUMMARY.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("IMqS82HpRHMGrEIE"))
+[2m2026-06-06T08:27:50.331633Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/_SUMMARY.md
+[2m2026-06-06T08:27:50.332155Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/_SUMMARY.md [3mpath[0m[2m=[0m/_SUMMARY.md [3mcontent_bytes[0m[2m=[0m113 [3melapsed_ms[0m[2m=[0m18
+[2m2026-06-06T08:27:53.851247Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page_http[0m[2m:[0m GET: blog/docker-tips-d7e037055f8a.html, query: {}
+[2m2026-06-06T08:27:53.851626Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m full request url: /blog/docker-tips-d7e037055f8a.html
+[2m2026-06-06T08:27:53.865764Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m resolved page: ResolvedPage {
+    url_path: "/blog/docker-tips-d7e037055f8a.html",
+    logical_path: "/blog/2023/Docker篇.md",
+    post: PostItem {
+        id: "d7e037055f8a",
+        title: "Docker篇",
+        meta: {
+            "update_at": String("2023-10-22 20:19"),
+        },
+        dir: "/blog/2023/",
+        logical_path: "/blog/2023/Docker篇.md",
+        slug: "docker-tips",
+        summary: "",
+        created_at: 1694246880,
+        updated_at: 1694246880,
+        draft: false,
+        tags: [],
+        categories: [],
+        weight: 0,
+        template: None,
+        prev_id: None,
+        next_id: None,
+    },
+    template: "book",
+    url_query: None,
+    breadcrumbs: [
+        BreadcrumbItem {
+            title: "Dayu 修行日志",
+            url: "/index.html",
+            is_first: true,
+            is_last: false,
+        },
+        BreadcrumbItem {
+            title: "Hello Blog",
+            url: "/blog/index.html",
+            is_first: false,
+            is_last: false,
+        },
+        BreadcrumbItem {
+            title: "Docker篇",
+            url: "/blog/docker-tips-d7e037055f8a.html",
+            is_first: false,
+            is_last: true,
+        },
+    ],
+}
+[2m2026-06-06T08:27:53.865955Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m url map to template: blog/docker-tips-d7e037055f8a.html -> book
+[2m2026-06-06T08:27:53.870932Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /blog/2023/Docker篇.md
+[2m2026-06-06T08:27:53.876552Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/blog/2023/Docker篇.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("BeDfZWxwbP5Zy8X6"))
+[2m2026-06-06T08:27:53.877063Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/blog/2023/Docker篇.md
+[2m2026-06-06T08:27:53.877862Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/blog/2023/Docker篇.md [3mpath[0m[2m=[0m/blog/2023/Docker篇.md [3mcontent_bytes[0m[2m=[0m2834 [3melapsed_ms[0m[2m=[0m6
+[2m2026-06-06T08:27:53.878770Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /_SUMMARY.md
+[2m2026-06-06T08:27:53.885439Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/_SUMMARY.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("BeDfZWxwbP5Zy8X6"))
+[2m2026-06-06T08:27:53.885975Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/_SUMMARY.md
+[2m2026-06-06T08:27:53.886558Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/_SUMMARY.md [3mpath[0m[2m=[0m/_SUMMARY.md [3mcontent_bytes[0m[2m=[0m113 [3melapsed_ms[0m[2m=[0m7
+[2m2026-06-06T08:27:53.887181Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m nav indicator arg: NavIndicatorArgs { from_file: "/_SUMMARY.md", cur_page_path: "/blog/docker-tips-d7e037055f8a.html" }
+[2m2026-06-06T08:27:53.888035Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /_SUMMARY.md
+[2m2026-06-06T08:27:53.904784Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/_SUMMARY.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("BeDfZWxwbP5Zy8X6"))
+[2m2026-06-06T08:27:53.907537Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/_SUMMARY.md
+[2m2026-06-06T08:27:53.911928Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/_SUMMARY.md [3mpath[0m[2m=[0m/_SUMMARY.md [3mcontent_bytes[0m[2m=[0m113 [3melapsed_ms[0m[2m=[0m23
+[2m2026-06-06T08:27:59.471344Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page_http[0m[2m:[0m GET: blog/docker-tips-d7e037055f8a.html, query: {}
+[2m2026-06-06T08:27:59.471793Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m full request url: /blog/docker-tips-d7e037055f8a.html
+[2m2026-06-06T08:27:59.486372Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m resolved page: ResolvedPage {
+    url_path: "/blog/docker-tips-d7e037055f8a.html",
+    logical_path: "/blog/2023/Docker篇.md",
+    post: PostItem {
+        id: "d7e037055f8a",
+        title: "Docker篇",
+        meta: {
+            "update_at": String("2023-10-22 20:19"),
+        },
+        dir: "/blog/2023/",
+        logical_path: "/blog/2023/Docker篇.md",
+        slug: "docker-tips",
+        summary: "",
+        created_at: 1694246880,
+        updated_at: 1694246880,
+        draft: false,
+        tags: [],
+        categories: [],
+        weight: 0,
+        template: None,
+        prev_id: None,
+        next_id: None,
+    },
+    template: "book",
+    url_query: None,
+    breadcrumbs: [
+        BreadcrumbItem {
+            title: "Dayu 修行日志",
+            url: "/index.html",
+            is_first: true,
+            is_last: false,
+        },
+        BreadcrumbItem {
+            title: "Hello Blog",
+            url: "/blog/index.html",
+            is_first: false,
+            is_last: false,
+        },
+        BreadcrumbItem {
+            title: "Docker篇",
+            url: "/blog/docker-tips-d7e037055f8a.html",
+            is_first: false,
+            is_last: true,
+        },
+    ],
+}
+[2m2026-06-06T08:27:59.486519Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m url map to template: blog/docker-tips-d7e037055f8a.html -> book
+[2m2026-06-06T08:27:59.491719Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /blog/2023/Docker篇.md
+[2m2026-06-06T08:27:59.497394Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/blog/2023/Docker篇.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("dyK96Z2KRIdeQHIF"))
+[2m2026-06-06T08:27:59.498146Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/blog/2023/Docker篇.md
+[2m2026-06-06T08:27:59.499209Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/blog/2023/Docker篇.md [3mpath[0m[2m=[0m/blog/2023/Docker篇.md [3mcontent_bytes[0m[2m=[0m2834 [3melapsed_ms[0m[2m=[0m7
+[2m2026-06-06T08:27:59.500363Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /_SUMMARY.md
+[2m2026-06-06T08:27:59.512649Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/_SUMMARY.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("dyK96Z2KRIdeQHIF"))
+[2m2026-06-06T08:27:59.513226Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/_SUMMARY.md
+[2m2026-06-06T08:27:59.513642Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/_SUMMARY.md [3mpath[0m[2m=[0m/_SUMMARY.md [3mcontent_bytes[0m[2m=[0m113 [3melapsed_ms[0m[2m=[0m13
+[2m2026-06-06T08:27:59.514010Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m nav indicator arg: NavIndicatorArgs { from_file: "/_SUMMARY.md", cur_page_path: "/blog/docker-tips-d7e037055f8a.html" }
+[2m2026-06-06T08:27:59.514734Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /_SUMMARY.md
+[2m2026-06-06T08:27:59.564910Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/_SUMMARY.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("dyK96Z2KRIdeQHIF"))
+[2m2026-06-06T08:27:59.565450Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/_SUMMARY.md
+[2m2026-06-06T08:27:59.566033Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/_SUMMARY.md [3mpath[0m[2m=[0m/_SUMMARY.md [3mcontent_bytes[0m[2m=[0m113 [3melapsed_ms[0m[2m=[0m51
+[2m2026-06-06T08:28:04.742858Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page_http[0m[2m:[0m GET: index.html, query: {}
+[2m2026-06-06T08:28:04.743516Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m full request url: /index.html
+[2m2026-06-06T08:28:04.755083Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m resolved page: ResolvedPage {
+    url_path: "/index.html",
+    logical_path: "/HOME.md",
+    post: PostItem {
+        id: "7ea16e4cccb8",
+        title: "Dayu 修行日志",
+        meta: {},
+        dir: "/",
+        logical_path: "/HOME.md",
+        slug: "index",
+        summary: "",
+        created_at: 1750129320,
+        updated_at: 1780648903,
+        draft: false,
+        tags: [],
+        categories: [],
+        weight: 0,
+        template: None,
+        prev_id: None,
+        next_id: None,
+    },
+    template: "book",
+    url_query: None,
+    breadcrumbs: [
+        BreadcrumbItem {
+            title: "Dayu 修行日志",
+            url: "/index.html",
+            is_first: true,
+            is_last: true,
+        },
+    ],
+}
+[2m2026-06-06T08:28:04.755203Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m url map to template: index.html -> book
+[2m2026-06-06T08:28:04.760246Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /HOME.md
+[2m2026-06-06T08:28:04.802779Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/HOME.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("b13DIW7Ql8FrNZZz"))
+[2m2026-06-06T08:28:04.803475Z[0m [32m INFO[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: processing blocks [3mpath[0m[2m=[0m/HOME.md [3mblock_count[0m[2m=[0m1
+[2m2026-06-06T08:28:04.803550Z[0m [32m INFO[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: render block start [3mcard[0m[2m=[0mitems [3mformat[0m[2m=[0myaml [3mpath[0m[2m=[0m/HOME.md [3mbody_len[0m[2m=[0m64 [3mbody_preview[0m[2m=[0mdir: /bloglimit: 5order_by: updated_at# order_direction: asc
+[2m2026-06-06T08:28:04.814222Z[0m [32m INFO[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: render block ok [3mcard[0m[2m=[0mitems [3mpath[0m[2m=[0m/HOME.md [3moutput_len[0m[2m=[0m457
+[2m2026-06-06T08:28:04.815519Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/HOME.md [3mpath[0m[2m=[0m/HOME.md [3mcontent_bytes[0m[2m=[0m259 [3melapsed_ms[0m[2m=[0m55
+[2m2026-06-06T08:28:04.819099Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /_SUMMARY.md
+[2m2026-06-06T08:28:04.883376Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/_SUMMARY.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("b13DIW7Ql8FrNZZz"))
+[2m2026-06-06T08:28:04.884037Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/_SUMMARY.md
+[2m2026-06-06T08:28:04.884794Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/_SUMMARY.md [3mpath[0m[2m=[0m/_SUMMARY.md [3mcontent_bytes[0m[2m=[0m113 [3melapsed_ms[0m[2m=[0m65
+[2m2026-06-06T08:28:04.885470Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m nav indicator arg: NavIndicatorArgs { from_file: "/_SUMMARY.md", cur_page_path: "/index.html" }
+[2m2026-06-06T08:28:04.886529Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /_SUMMARY.md
+[2m2026-06-06T08:28:04.901367Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/_SUMMARY.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("b13DIW7Ql8FrNZZz"))
+[2m2026-06-06T08:28:04.902015Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/_SUMMARY.md
+[2m2026-06-06T08:28:04.902751Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/_SUMMARY.md [3mpath[0m[2m=[0m/_SUMMARY.md [3mcontent_bytes[0m[2m=[0m113 [3melapsed_ms[0m[2m=[0m15
+[2m2026-06-06T08:28:06.776558Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page_http[0m[2m:[0m GET: blog/index.html, query: {}
+[2m2026-06-06T08:28:06.777058Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m full request url: /blog/index.html
+[2m2026-06-06T08:28:06.781043Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m resolved page: ResolvedPage {
+    url_path: "/blog/index.html",
+    logical_path: "/blog/blog.md",
+    post: PostItem {
+        id: "6651cd5f027b",
+        title: "Hello Blog",
+        meta: {
+            "hide_meta": Bool(true),
+        },
+        dir: "/blog/",
+        logical_path: "/blog/blog.md",
+        slug: "index",
+        summary: "",
+        created_at: 1750129560,
+        updated_at: 1750129560,
+        draft: false,
+        tags: [
+            "index",
+        ],
+        categories: [],
+        weight: 0,
+        template: None,
+        prev_id: None,
+        next_id: None,
+    },
+    template: "book",
+    url_query: None,
+    breadcrumbs: [
+        BreadcrumbItem {
+            title: "Dayu 修行日志",
+            url: "/index.html",
+            is_first: true,
+            is_last: false,
+        },
+        BreadcrumbItem {
+            title: "Hello Blog",
+            url: "/blog/index.html",
+            is_first: false,
+            is_last: true,
+        },
+    ],
+}
+[2m2026-06-06T08:28:06.781158Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m url map to template: blog/index.html -> book
+[2m2026-06-06T08:28:06.784354Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /blog/blog.md
+[2m2026-06-06T08:28:06.785894Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/blog/blog.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("gOrf7zM6FUuSesmN"))
+[2m2026-06-06T08:28:06.786440Z[0m [32m INFO[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: processing blocks [3mpath[0m[2m=[0m/blog/blog.md [3mblock_count[0m[2m=[0m1
+[2m2026-06-06T08:28:06.786497Z[0m [32m INFO[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: render block start [3mcard[0m[2m=[0mlist2 [3mformat[0m[2m=[0myaml [3mpath[0m[2m=[0m/blog/blog.md [3mbody_len[0m[2m=[0m79 [3mbody_preview[0m[2m=[0mdir: /blog/include_subfolders: trueexclude_tags:    - index# page_size: 10
+[2m2026-06-06T08:28:06.795326Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_query[0m[2m:[0m query string: page=
+[2m2026-06-06T08:28:06.796001Z[0m [32m INFO[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: render block ok [3mcard[0m[2m=[0mlist2 [3mpath[0m[2m=[0m/blog/blog.md [3moutput_len[0m[2m=[0m4032
+[2m2026-06-06T08:28:06.798572Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/blog/blog.md [3mpath[0m[2m=[0m/blog/blog.md [3mcontent_bytes[0m[2m=[0m215 [3melapsed_ms[0m[2m=[0m13
+[2m2026-06-06T08:28:06.799767Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /_SUMMARY.md
+[2m2026-06-06T08:28:06.806854Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/_SUMMARY.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("gOrf7zM6FUuSesmN"))
+[2m2026-06-06T08:28:06.807260Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/_SUMMARY.md
+[2m2026-06-06T08:28:06.807574Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/_SUMMARY.md [3mpath[0m[2m=[0m/_SUMMARY.md [3mcontent_bytes[0m[2m=[0m113 [3melapsed_ms[0m[2m=[0m7
+[2m2026-06-06T08:28:06.807889Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m nav indicator arg: NavIndicatorArgs { from_file: "/_SUMMARY.md", cur_page_path: "/blog/index.html" }
+[2m2026-06-06T08:28:06.808447Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /_SUMMARY.md
+[2m2026-06-06T08:28:06.814518Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/_SUMMARY.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("gOrf7zM6FUuSesmN"))
+[2m2026-06-06T08:28:06.814970Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/_SUMMARY.md
+[2m2026-06-06T08:28:06.815303Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/_SUMMARY.md [3mpath[0m[2m=[0m/_SUMMARY.md [3mcontent_bytes[0m[2m=[0m113 [3melapsed_ms[0m[2m=[0m6
+[2m2026-06-06T08:28:08.701685Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page_http[0m[2m:[0m GET: blog/index.p2.html, query: {"page": String("")}
+[2m2026-06-06T08:28:08.702810Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m full request url: /blog/index.html
+[2m2026-06-06T08:28:08.707117Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m resolved page: ResolvedPage {
+    url_path: "/blog/index.html",
+    logical_path: "/blog/blog.md",
+    post: PostItem {
+        id: "6651cd5f027b",
+        title: "Hello Blog",
+        meta: {
+            "hide_meta": Bool(true),
+        },
+        dir: "/blog/",
+        logical_path: "/blog/blog.md",
+        slug: "index",
+        summary: "",
+        created_at: 1750129560,
+        updated_at: 1750129560,
+        draft: false,
+        tags: [
+            "index",
+        ],
+        categories: [],
+        weight: 0,
+        template: None,
+        prev_id: None,
+        next_id: None,
+    },
+    template: "book",
+    url_query: None,
+    breadcrumbs: [
+        BreadcrumbItem {
+            title: "Dayu 修行日志",
+            url: "/index.html",
+            is_first: true,
+            is_last: false,
+        },
+        BreadcrumbItem {
+            title: "Hello Blog",
+            url: "/blog/index.html",
+            is_first: false,
+            is_last: true,
+        },
+    ],
+}
+[2m2026-06-06T08:28:08.707298Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m url map to template: blog/index.p2.html -> book
+[2m2026-06-06T08:28:08.710277Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /blog/blog.md
+[2m2026-06-06T08:28:08.711527Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/blog/blog.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("TUJCJEqw6FFLKtpt"))
+[2m2026-06-06T08:28:08.711971Z[0m [32m INFO[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: processing blocks [3mpath[0m[2m=[0m/blog/blog.md [3mblock_count[0m[2m=[0m1
+[2m2026-06-06T08:28:08.712012Z[0m [32m INFO[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: render block start [3mcard[0m[2m=[0mlist2 [3mformat[0m[2m=[0myaml [3mpath[0m[2m=[0m/blog/blog.md [3mbody_len[0m[2m=[0m79 [3mbody_preview[0m[2m=[0mdir: /blog/include_subfolders: trueexclude_tags:    - index# page_size: 10
+[2m2026-06-06T08:28:08.718453Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_query[0m[2m:[0m query string: page=
+[2m2026-06-06T08:28:08.719267Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_query[0m[2m:[0m query string: page=
+[2m2026-06-06T08:28:08.719959Z[0m [32m INFO[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: render block ok [3mcard[0m[2m=[0mlist2 [3mpath[0m[2m=[0m/blog/blog.md [3moutput_len[0m[2m=[0m4020
+[2m2026-06-06T08:28:08.722286Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/blog/blog.md [3mpath[0m[2m=[0m/blog/blog.md [3mcontent_bytes[0m[2m=[0m215 [3melapsed_ms[0m[2m=[0m11
+[2m2026-06-06T08:28:08.723512Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /_SUMMARY.md
+[2m2026-06-06T08:28:08.733269Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/_SUMMARY.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("TUJCJEqw6FFLKtpt"))
+[2m2026-06-06T08:28:08.734124Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/_SUMMARY.md
+[2m2026-06-06T08:28:08.734501Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/_SUMMARY.md [3mpath[0m[2m=[0m/_SUMMARY.md [3mcontent_bytes[0m[2m=[0m113 [3melapsed_ms[0m[2m=[0m10
+[2m2026-06-06T08:28:08.734821Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m nav indicator arg: NavIndicatorArgs { from_file: "/_SUMMARY.md", cur_page_path: "/blog/index.p2.html" }
+[2m2026-06-06T08:28:08.735337Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /_SUMMARY.md
+[2m2026-06-06T08:28:08.740883Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/_SUMMARY.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("TUJCJEqw6FFLKtpt"))
+[2m2026-06-06T08:28:08.741232Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/_SUMMARY.md
+[2m2026-06-06T08:28:08.741529Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/_SUMMARY.md [3mpath[0m[2m=[0m/_SUMMARY.md [3mcontent_bytes[0m[2m=[0m113 [3melapsed_ms[0m[2m=[0m6
+[2m2026-06-06T08:28:10.112134Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page_http[0m[2m:[0m GET: blog/index.p3.html, query: {"page": String("")}
+[2m2026-06-06T08:28:10.113037Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m full request url: /blog/index.html
+[2m2026-06-06T08:28:10.117780Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m resolved page: ResolvedPage {
+    url_path: "/blog/index.html",
+    logical_path: "/blog/blog.md",
+    post: PostItem {
+        id: "6651cd5f027b",
+        title: "Hello Blog",
+        meta: {
+            "hide_meta": Bool(true),
+        },
+        dir: "/blog/",
+        logical_path: "/blog/blog.md",
+        slug: "index",
+        summary: "",
+        created_at: 1750129560,
+        updated_at: 1750129560,
+        draft: false,
+        tags: [
+            "index",
+        ],
+        categories: [],
+        weight: 0,
+        template: None,
+        prev_id: None,
+        next_id: None,
+    },
+    template: "book",
+    url_query: None,
+    breadcrumbs: [
+        BreadcrumbItem {
+            title: "Dayu 修行日志",
+            url: "/index.html",
+            is_first: true,
+            is_last: false,
+        },
+        BreadcrumbItem {
+            title: "Hello Blog",
+            url: "/blog/index.html",
+            is_first: false,
+            is_last: true,
+        },
+    ],
+}
+[2m2026-06-06T08:28:10.117895Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m url map to template: blog/index.p3.html -> book
+[2m2026-06-06T08:28:10.121036Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /blog/blog.md
+[2m2026-06-06T08:28:10.122661Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/blog/blog.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("cMcGiVsWCUwr6hag"))
+[2m2026-06-06T08:28:10.123663Z[0m [32m INFO[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: processing blocks [3mpath[0m[2m=[0m/blog/blog.md [3mblock_count[0m[2m=[0m1
+[2m2026-06-06T08:28:10.123809Z[0m [32m INFO[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: render block start [3mcard[0m[2m=[0mlist2 [3mformat[0m[2m=[0myaml [3mpath[0m[2m=[0m/blog/blog.md [3mbody_len[0m[2m=[0m79 [3mbody_preview[0m[2m=[0mdir: /blog/include_subfolders: trueexclude_tags:    - index# page_size: 10
+[2m2026-06-06T08:28:10.132070Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_query[0m[2m:[0m query string: page=
+[2m2026-06-06T08:28:10.132852Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_query[0m[2m:[0m query string: page=
+[2m2026-06-06T08:28:10.133842Z[0m [32m INFO[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: render block ok [3mcard[0m[2m=[0mlist2 [3mpath[0m[2m=[0m/blog/blog.md [3moutput_len[0m[2m=[0m4002
+[2m2026-06-06T08:28:10.136358Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/blog/blog.md [3mpath[0m[2m=[0m/blog/blog.md [3mcontent_bytes[0m[2m=[0m215 [3melapsed_ms[0m[2m=[0m15
+[2m2026-06-06T08:28:10.138157Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /_SUMMARY.md
+[2m2026-06-06T08:28:10.145710Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/_SUMMARY.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("cMcGiVsWCUwr6hag"))
+[2m2026-06-06T08:28:10.146084Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/_SUMMARY.md
+[2m2026-06-06T08:28:10.146379Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/_SUMMARY.md [3mpath[0m[2m=[0m/_SUMMARY.md [3mcontent_bytes[0m[2m=[0m113 [3melapsed_ms[0m[2m=[0m8
+[2m2026-06-06T08:28:10.146695Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m nav indicator arg: NavIndicatorArgs { from_file: "/_SUMMARY.md", cur_page_path: "/blog/index.p3.html" }
+[2m2026-06-06T08:28:10.147254Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /_SUMMARY.md
+[2m2026-06-06T08:28:10.154773Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/_SUMMARY.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("cMcGiVsWCUwr6hag"))
+[2m2026-06-06T08:28:10.155498Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/_SUMMARY.md
+[2m2026-06-06T08:28:10.155972Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/_SUMMARY.md [3mpath[0m[2m=[0m/_SUMMARY.md [3mcontent_bytes[0m[2m=[0m113 [3melapsed_ms[0m[2m=[0m8
+[2m2026-06-06T08:28:10.823193Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page_http[0m[2m:[0m GET: blog/index.p4.html, query: {"page": String("")}
+[2m2026-06-06T08:28:10.823730Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m full request url: /blog/index.html
+[2m2026-06-06T08:28:10.827822Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m resolved page: ResolvedPage {
+    url_path: "/blog/index.html",
+    logical_path: "/blog/blog.md",
+    post: PostItem {
+        id: "6651cd5f027b",
+        title: "Hello Blog",
+        meta: {
+            "hide_meta": Bool(true),
+        },
+        dir: "/blog/",
+        logical_path: "/blog/blog.md",
+        slug: "index",
+        summary: "",
+        created_at: 1750129560,
+        updated_at: 1750129560,
+        draft: false,
+        tags: [
+            "index",
+        ],
+        categories: [],
+        weight: 0,
+        template: None,
+        prev_id: None,
+        next_id: None,
+    },
+    template: "book",
+    url_query: None,
+    breadcrumbs: [
+        BreadcrumbItem {
+            title: "Dayu 修行日志",
+            url: "/index.html",
+            is_first: true,
+            is_last: false,
+        },
+        BreadcrumbItem {
+            title: "Hello Blog",
+            url: "/blog/index.html",
+            is_first: false,
+            is_last: true,
+        },
+    ],
+}
+[2m2026-06-06T08:28:10.827957Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m url map to template: blog/index.p4.html -> book
+[2m2026-06-06T08:28:10.830916Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /blog/blog.md
+[2m2026-06-06T08:28:10.832550Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/blog/blog.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("FEW4FgMe4qZ8UZaH"))
+[2m2026-06-06T08:28:10.833270Z[0m [32m INFO[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: processing blocks [3mpath[0m[2m=[0m/blog/blog.md [3mblock_count[0m[2m=[0m1
+[2m2026-06-06T08:28:10.833352Z[0m [32m INFO[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: render block start [3mcard[0m[2m=[0mlist2 [3mformat[0m[2m=[0myaml [3mpath[0m[2m=[0m/blog/blog.md [3mbody_len[0m[2m=[0m79 [3mbody_preview[0m[2m=[0mdir: /blog/include_subfolders: trueexclude_tags:    - index# page_size: 10
+[2m2026-06-06T08:28:10.842966Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_query[0m[2m:[0m query string: page=
+[2m2026-06-06T08:28:10.843747Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_query[0m[2m:[0m query string: page=
+[2m2026-06-06T08:28:10.844435Z[0m [32m INFO[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: render block ok [3mcard[0m[2m=[0mlist2 [3mpath[0m[2m=[0m/blog/blog.md [3moutput_len[0m[2m=[0m3970
+[2m2026-06-06T08:28:10.846983Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/blog/blog.md [3mpath[0m[2m=[0m/blog/blog.md [3mcontent_bytes[0m[2m=[0m215 [3melapsed_ms[0m[2m=[0m15
+[2m2026-06-06T08:28:10.848138Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /_SUMMARY.md
+[2m2026-06-06T08:28:10.855570Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/_SUMMARY.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("FEW4FgMe4qZ8UZaH"))
+[2m2026-06-06T08:28:10.856002Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/_SUMMARY.md
+[2m2026-06-06T08:28:10.856902Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/_SUMMARY.md [3mpath[0m[2m=[0m/_SUMMARY.md [3mcontent_bytes[0m[2m=[0m113 [3melapsed_ms[0m[2m=[0m8
+[2m2026-06-06T08:28:10.857420Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m nav indicator arg: NavIndicatorArgs { from_file: "/_SUMMARY.md", cur_page_path: "/blog/index.p4.html" }
+[2m2026-06-06T08:28:10.858164Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /_SUMMARY.md
+[2m2026-06-06T08:28:10.863599Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/_SUMMARY.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("FEW4FgMe4qZ8UZaH"))
+[2m2026-06-06T08:28:10.864000Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/_SUMMARY.md
+[2m2026-06-06T08:28:10.864474Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/_SUMMARY.md [3mpath[0m[2m=[0m/_SUMMARY.md [3mcontent_bytes[0m[2m=[0m113 [3melapsed_ms[0m[2m=[0m6
+[2m2026-06-06T08:28:11.472884Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page_http[0m[2m:[0m GET: blog/index.p5.html, query: {"page": String("")}
+[2m2026-06-06T08:28:11.473421Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m full request url: /blog/index.html
+[2m2026-06-06T08:28:11.476541Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m resolved page: ResolvedPage {
+    url_path: "/blog/index.html",
+    logical_path: "/blog/blog.md",
+    post: PostItem {
+        id: "6651cd5f027b",
+        title: "Hello Blog",
+        meta: {
+            "hide_meta": Bool(true),
+        },
+        dir: "/blog/",
+        logical_path: "/blog/blog.md",
+        slug: "index",
+        summary: "",
+        created_at: 1750129560,
+        updated_at: 1750129560,
+        draft: false,
+        tags: [
+            "index",
+        ],
+        categories: [],
+        weight: 0,
+        template: None,
+        prev_id: None,
+        next_id: None,
+    },
+    template: "book",
+    url_query: None,
+    breadcrumbs: [
+        BreadcrumbItem {
+            title: "Dayu 修行日志",
+            url: "/index.html",
+            is_first: true,
+            is_last: false,
+        },
+        BreadcrumbItem {
+            title: "Hello Blog",
+            url: "/blog/index.html",
+            is_first: false,
+            is_last: true,
+        },
+    ],
+}
+[2m2026-06-06T08:28:11.476622Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m url map to template: blog/index.p5.html -> book
+[2m2026-06-06T08:28:11.478868Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /blog/blog.md
+[2m2026-06-06T08:28:11.480098Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/blog/blog.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("AymaH0UoQDb7nTz8"))
+[2m2026-06-06T08:28:11.481121Z[0m [32m INFO[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: processing blocks [3mpath[0m[2m=[0m/blog/blog.md [3mblock_count[0m[2m=[0m1
+[2m2026-06-06T08:28:11.481186Z[0m [32m INFO[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: render block start [3mcard[0m[2m=[0mlist2 [3mformat[0m[2m=[0myaml [3mpath[0m[2m=[0m/blog/blog.md [3mbody_len[0m[2m=[0m79 [3mbody_preview[0m[2m=[0mdir: /blog/include_subfolders: trueexclude_tags:    - index# page_size: 10
+[2m2026-06-06T08:28:11.490502Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_query[0m[2m:[0m query string: page=
+[2m2026-06-06T08:28:11.491517Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_query[0m[2m:[0m query string: page=
+[2m2026-06-06T08:28:11.492149Z[0m [32m INFO[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: render block ok [3mcard[0m[2m=[0mlist2 [3mpath[0m[2m=[0m/blog/blog.md [3moutput_len[0m[2m=[0m4038
+[2m2026-06-06T08:28:11.494721Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/blog/blog.md [3mpath[0m[2m=[0m/blog/blog.md [3mcontent_bytes[0m[2m=[0m215 [3melapsed_ms[0m[2m=[0m15
+[2m2026-06-06T08:28:11.495969Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /_SUMMARY.md
+[2m2026-06-06T08:28:11.506083Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/_SUMMARY.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("AymaH0UoQDb7nTz8"))
+[2m2026-06-06T08:28:11.506730Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/_SUMMARY.md
+[2m2026-06-06T08:28:11.507184Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/_SUMMARY.md [3mpath[0m[2m=[0m/_SUMMARY.md [3mcontent_bytes[0m[2m=[0m113 [3melapsed_ms[0m[2m=[0m10
+[2m2026-06-06T08:28:11.507647Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m nav indicator arg: NavIndicatorArgs { from_file: "/_SUMMARY.md", cur_page_path: "/blog/index.p5.html" }
+[2m2026-06-06T08:28:11.508487Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /_SUMMARY.md
+[2m2026-06-06T08:28:11.517766Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/_SUMMARY.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("AymaH0UoQDb7nTz8"))
+[2m2026-06-06T08:28:11.518601Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/_SUMMARY.md
+[2m2026-06-06T08:28:11.519043Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/_SUMMARY.md [3mpath[0m[2m=[0m/_SUMMARY.md [3mcontent_bytes[0m[2m=[0m113 [3melapsed_ms[0m[2m=[0m10
+[2m2026-06-06T08:28:13.814513Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page_http[0m[2m:[0m GET: blog/yin-shi-pin-zhuan-huan-729ffa32c9eb.html, query: {}
+[2m2026-06-06T08:28:13.815155Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m full request url: /blog/yin-shi-pin-zhuan-huan-729ffa32c9eb.html
+[2m2026-06-06T08:28:13.823056Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m resolved page: ResolvedPage {
+    url_path: "/blog/yin-shi-pin-zhuan-huan-729ffa32c9eb.html",
+    logical_path: "/blog/2024/video audio convertor.md",
+    post: PostItem {
+        id: "729ffa32c9eb",
+        title: "音视频转换",
+        meta: {
+            "update_at": String("2024-06-25 15:13"),
+        },
+        dir: "/blog/2024/",
+        logical_path: "/blog/2024/video audio convertor.md",
+        slug: "yin-shi-pin-zhuan-huan",
+        summary: "",
+        created_at: 1711614240,
+        updated_at: 1711614240,
+        draft: false,
+        tags: [],
+        categories: [],
+        weight: 0,
+        template: None,
+        prev_id: None,
+        next_id: None,
+    },
+    template: "book",
+    url_query: None,
+    breadcrumbs: [
+        BreadcrumbItem {
+            title: "Dayu 修行日志",
+            url: "/index.html",
+            is_first: true,
+            is_last: false,
+        },
+        BreadcrumbItem {
+            title: "Hello Blog",
+            url: "/blog/index.html",
+            is_first: false,
+            is_last: false,
+        },
+        BreadcrumbItem {
+            title: "音视频转换",
+            url: "/blog/yin-shi-pin-zhuan-huan-729ffa32c9eb.html",
+            is_first: false,
+            is_last: true,
+        },
+    ],
+}
+[2m2026-06-06T08:28:13.823199Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m url map to template: blog/yin-shi-pin-zhuan-huan-729ffa32c9eb.html -> book
+[2m2026-06-06T08:28:13.827971Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /blog/2024/video audio convertor.md
+[2m2026-06-06T08:28:13.833050Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/blog/2024/video audio convertor.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("8XT5HKv9TBjLl7Fv"))
+[2m2026-06-06T08:28:13.833693Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/blog/2024/video audio convertor.md
+[2m2026-06-06T08:28:13.834356Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/blog/2024/video audio convertor.md [3mpath[0m[2m=[0m/blog/2024/video audio convertor.md [3mcontent_bytes[0m[2m=[0m1716 [3melapsed_ms[0m[2m=[0m6
+[2m2026-06-06T08:28:13.835663Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /_SUMMARY.md
+[2m2026-06-06T08:28:13.844469Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/_SUMMARY.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("8XT5HKv9TBjLl7Fv"))
+[2m2026-06-06T08:28:13.845075Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/_SUMMARY.md
+[2m2026-06-06T08:28:13.845501Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/_SUMMARY.md [3mpath[0m[2m=[0m/_SUMMARY.md [3mcontent_bytes[0m[2m=[0m113 [3melapsed_ms[0m[2m=[0m9
+[2m2026-06-06T08:28:13.846139Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m nav indicator arg: NavIndicatorArgs { from_file: "/_SUMMARY.md", cur_page_path: "/blog/yin-shi-pin-zhuan-huan-729ffa32c9eb.html" }
+[2m2026-06-06T08:28:13.846881Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /_SUMMARY.md
+[2m2026-06-06T08:28:13.852908Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/_SUMMARY.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("8XT5HKv9TBjLl7Fv"))
+[2m2026-06-06T08:28:13.853483Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/_SUMMARY.md
+[2m2026-06-06T08:28:13.853831Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/_SUMMARY.md [3mpath[0m[2m=[0m/_SUMMARY.md [3mcontent_bytes[0m[2m=[0m113 [3melapsed_ms[0m[2m=[0m6
+[2m2026-06-06T08:28:30.020260Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page_http[0m[2m:[0m GET: index.html, query: {}
+[2m2026-06-06T08:28:30.020782Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m full request url: /index.html
+[2m2026-06-06T08:28:30.023447Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m resolved page: ResolvedPage {
+    url_path: "/index.html",
+    logical_path: "/HOME.md",
+    post: PostItem {
+        id: "7ea16e4cccb8",
+        title: "Dayu 修行日志",
+        meta: {},
+        dir: "/",
+        logical_path: "/HOME.md",
+        slug: "index",
+        summary: "",
+        created_at: 1750129320,
+        updated_at: 1780648903,
+        draft: false,
+        tags: [],
+        categories: [],
+        weight: 0,
+        template: None,
+        prev_id: None,
+        next_id: None,
+    },
+    template: "book",
+    url_query: None,
+    breadcrumbs: [
+        BreadcrumbItem {
+            title: "Dayu 修行日志",
+            url: "/index.html",
+            is_first: true,
+            is_last: true,
+        },
+    ],
+}
+[2m2026-06-06T08:28:30.023567Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m url map to template: index.html -> book
+[2m2026-06-06T08:28:30.025964Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /HOME.md
+[2m2026-06-06T08:28:30.032755Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/HOME.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("9CiG2m8OMv6HTaeV"))
+[2m2026-06-06T08:28:30.033184Z[0m [32m INFO[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: processing blocks [3mpath[0m[2m=[0m/HOME.md [3mblock_count[0m[2m=[0m1
+[2m2026-06-06T08:28:30.033231Z[0m [32m INFO[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: render block start [3mcard[0m[2m=[0mitems [3mformat[0m[2m=[0myaml [3mpath[0m[2m=[0m/HOME.md [3mbody_len[0m[2m=[0m64 [3mbody_preview[0m[2m=[0mdir: /bloglimit: 5order_by: updated_at# order_direction: asc
+[2m2026-06-06T08:28:30.037920Z[0m [32m INFO[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: render block ok [3mcard[0m[2m=[0mitems [3mpath[0m[2m=[0m/HOME.md [3moutput_len[0m[2m=[0m457
+[2m2026-06-06T08:28:30.039029Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/HOME.md [3mpath[0m[2m=[0m/HOME.md [3mcontent_bytes[0m[2m=[0m259 [3melapsed_ms[0m[2m=[0m12
+[2m2026-06-06T08:28:30.040099Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /_SUMMARY.md
+[2m2026-06-06T08:28:30.049724Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/_SUMMARY.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("9CiG2m8OMv6HTaeV"))
+[2m2026-06-06T08:28:30.050633Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/_SUMMARY.md
+[2m2026-06-06T08:28:30.051522Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/_SUMMARY.md [3mpath[0m[2m=[0m/_SUMMARY.md [3mcontent_bytes[0m[2m=[0m113 [3melapsed_ms[0m[2m=[0m11
+[2m2026-06-06T08:28:30.052176Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m nav indicator arg: NavIndicatorArgs { from_file: "/_SUMMARY.md", cur_page_path: "/index.html" }
+[2m2026-06-06T08:28:30.053207Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /_SUMMARY.md
+[2m2026-06-06T08:28:30.064643Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/_SUMMARY.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("9CiG2m8OMv6HTaeV"))
+[2m2026-06-06T08:28:30.065364Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/_SUMMARY.md
+[2m2026-06-06T08:28:30.065830Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/_SUMMARY.md [3mpath[0m[2m=[0m/_SUMMARY.md [3mcontent_bytes[0m[2m=[0m113 [3melapsed_ms[0m[2m=[0m12
+[2m2026-06-06T08:28:45.912007Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page_http[0m[2m:[0m GET: blog/ri-chang-bi-xiu-ke-ti-li-yun-dong-kai-shi-88b968a28796.html, query: {}
+[2m2026-06-06T08:28:45.912553Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m full request url: /blog/ri-chang-bi-xiu-ke-ti-li-yun-dong-kai-shi-88b968a28796.html
+[2m2026-06-06T08:28:45.931246Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m resolved page: ResolvedPage {
+    url_path: "/blog/ri-chang-bi-xiu-ke-ti-li-yun-dong-kai-shi-88b968a28796.html",
+    logical_path: "/blog/archives/毓知精选/2021/日常必修课——体力运动开始.md",
+    post: PostItem {
+        id: "88b968a28796",
+        title: "日常必修课——体力运动开始",
+        meta: {},
+        dir: "/blog/archives/毓知精选/2021/",
+        logical_path: "/blog/archives/毓知精选/2021/日常必修课——体力运动开始.md",
+        slug: "ri-chang-bi-xiu-ke-ti-li-yun-dong-kai-shi",
+        summary: "",
+        created_at: 1615800960,
+        updated_at: 1615800960,
+        draft: false,
+        tags: [],
+        categories: [],
+        weight: 0,
+        template: None,
+        prev_id: None,
+        next_id: None,
+    },
+    template: "book",
+    url_query: None,
+    breadcrumbs: [
+        BreadcrumbItem {
+            title: "Dayu 修行日志",
+            url: "/index.html",
+            is_first: true,
+            is_last: false,
+        },
+        BreadcrumbItem {
+            title: "Hello Blog",
+            url: "/blog/index.html",
+            is_first: false,
+            is_last: false,
+        },
+        BreadcrumbItem {
+            title: "日常必修课——体力运动开始",
+            url: "/blog/ri-chang-bi-xiu-ke-ti-li-yun-dong-kai-shi-88b968a28796.html",
+            is_first: false,
+            is_last: true,
+        },
+    ],
+}
+[2m2026-06-06T08:28:45.931518Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m url map to template: blog/ri-chang-bi-xiu-ke-ti-li-yun-dong-kai-shi-88b968a28796.html -> book
+[2m2026-06-06T08:28:45.934804Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /blog/archives/毓知精选/2021/日常必修课——体力运动开始.md
+[2m2026-06-06T08:28:45.937402Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/blog/archives/毓知精选/2021/日常必修课——体力运动开始.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("vv1rNuMv6yaIF6fh"))
+[2m2026-06-06T08:28:45.937895Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/blog/archives/毓知精选/2021/日常必修课——体力运动开始.md
+[2m2026-06-06T08:28:45.938580Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/blog/archives/毓知精选/2021/日常必修课——体力运动开始.md [3mpath[0m[2m=[0m/blog/archives/毓知精选/2021/日常必修课——体力运动开始.md [3mcontent_bytes[0m[2m=[0m4641 [3melapsed_ms[0m[2m=[0m3
+[2m2026-06-06T08:28:45.939819Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /_SUMMARY.md
+[2m2026-06-06T08:28:45.991487Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/_SUMMARY.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("vv1rNuMv6yaIF6fh"))
+[2m2026-06-06T08:28:45.993606Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/_SUMMARY.md
+[2m2026-06-06T08:28:45.994415Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/_SUMMARY.md [3mpath[0m[2m=[0m/_SUMMARY.md [3mcontent_bytes[0m[2m=[0m113 [3melapsed_ms[0m[2m=[0m54
+[2m2026-06-06T08:28:45.994972Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m nav indicator arg: NavIndicatorArgs { from_file: "/_SUMMARY.md", cur_page_path: "/blog/ri-chang-bi-xiu-ke-ti-li-yun-dong-kai-shi-88b968a28796.html" }
+[2m2026-06-06T08:28:45.998698Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /_SUMMARY.md
+[2m2026-06-06T08:28:46.018194Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/_SUMMARY.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("vv1rNuMv6yaIF6fh"))
+[2m2026-06-06T08:28:46.019557Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/_SUMMARY.md
+[2m2026-06-06T08:28:46.020620Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/_SUMMARY.md [3mpath[0m[2m=[0m/_SUMMARY.md [3mcontent_bytes[0m[2m=[0m113 [3melapsed_ms[0m[2m=[0m21
+[2m2026-06-06T08:28:56.341788Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page_http[0m[2m:[0m GET: blog/23nian-qiu-you-you-da-hua-shan-89f490803b11.html, query: {}
+[2m2026-06-06T08:28:56.342289Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m full request url: /blog/23nian-qiu-you-you-da-hua-shan-89f490803b11.html
+[2m2026-06-06T08:28:56.352695Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m resolved page: ResolvedPage {
+    url_path: "/blog/23nian-qiu-you-you-da-hua-shan-89f490803b11.html",
+    logical_path: "/blog/2023/23年秋又游大花山.md",
+    post: PostItem {
+        id: "89f490803b11",
+        title: "23年秋又游大花山",
+        meta: {},
+        dir: "/blog/2023/",
+        logical_path: "/blog/2023/23年秋又游大花山.md",
+        slug: "23nian-qiu-you-you-da-hua-shan",
+        summary: "",
+        created_at: 1693790880,
+        updated_at: 1693790880,
+        draft: false,
+        tags: [],
+        categories: [],
+        weight: 0,
+        template: None,
+        prev_id: None,
+        next_id: None,
+    },
+    template: "book",
+    url_query: None,
+    breadcrumbs: [
+        BreadcrumbItem {
+            title: "Dayu 修行日志",
+            url: "/index.html",
+            is_first: true,
+            is_last: false,
+        },
+        BreadcrumbItem {
+            title: "Hello Blog",
+            url: "/blog/index.html",
+            is_first: false,
+            is_last: false,
+        },
+        BreadcrumbItem {
+            title: "23年秋又游大花山",
+            url: "/blog/23nian-qiu-you-you-da-hua-shan-89f490803b11.html",
+            is_first: false,
+            is_last: true,
+        },
+    ],
+}
+[2m2026-06-06T08:28:56.352863Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::page[0m[2m:[0m url map to template: blog/23nian-qiu-you-you-da-hua-shan-89f490803b11.html -> book
+[2m2026-06-06T08:28:56.356399Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /blog/2023/23年秋又游大花山.md
+[2m2026-06-06T08:28:56.370233Z[0m [34mDEBUG[0m [2meverkm_publish::fs_media_backend[0m[2m:[0m media.copy_to_dist [3msource[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/blog/2023/bafenshan/雪中送炭.jpg [3mdist[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/2/26/26c4672aa9c1cf30.jpg [3mcache_hit[0m[2m=[0mfalse [3msha256_cache_hit[0m[2m=[0mfalse [3msha256_ms[0m[2m=[0m10 [3mcopy_ms[0m[2m=[0m0 [3mtotal_ms[0m[2m=[0m11
+[2m2026-06-06T08:28:56.374819Z[0m [34mDEBUG[0m [2meverkm_publish::fs_media_backend[0m[2m:[0m media.read_dimensions [3mfile[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/2/26/26c4672aa9c1cf30.jpg [3mwidth[0m[2m=[0m1280 [3mheight[0m[2m=[0m1706 [3mcache_hit[0m[2m=[0mfalse [3melapsed_ms[0m[2m=[0m4
+[2m2026-06-06T08:28:56.374895Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::media[0m[2m:[0m media_dist.done [3mmedia_src[0m[2m=[0m"bafenshan/雪中送炭.jpg" [3mreal_path[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/blog/2023/bafenshan/雪中送炭.jpg [3mdist_file[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/2/26/26c4672aa9c1cf30.jpg [3mpublic_url[0m[2m=[0m/assets/media/2/26/26c4672aa9c1cf30.jpg [3mwxh[0m[2m=[0mNone [3mwxh_from[0m[2m=[0m"none" [3mthumb_mode[0m[2m=[0m"dimensions_only" [3mthumb_cache_hit[0m[2m=[0mNone [3mwidth[0m[2m=[0m1280 [3mheight[0m[2m=[0m1706 [3melapsed_ms[0m[2m=[0m16
+[2m2026-06-06T08:28:56.388814Z[0m [34mDEBUG[0m [2meverkm_publish::fs_media_backend[0m[2m:[0m media.copy_to_dist [3msource[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/blog/2023/bafenshan/禁售通告.jpg [3mdist[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/1/1c/1c3499a5018e01ce.jpg [3mcache_hit[0m[2m=[0mfalse [3msha256_cache_hit[0m[2m=[0mfalse [3msha256_ms[0m[2m=[0m12 [3mcopy_ms[0m[2m=[0m1 [3mtotal_ms[0m[2m=[0m13
+[2m2026-06-06T08:28:56.392270Z[0m [34mDEBUG[0m [2meverkm_publish::fs_media_backend[0m[2m:[0m media.read_dimensions [3mfile[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/1/1c/1c3499a5018e01ce.jpg [3mwidth[0m[2m=[0m1068 [3mheight[0m[2m=[0m838 [3mcache_hit[0m[2m=[0mfalse [3melapsed_ms[0m[2m=[0m3
+[2m2026-06-06T08:28:56.392343Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::media[0m[2m:[0m media_dist.done [3mmedia_src[0m[2m=[0m"bafenshan/禁售通告.jpg" [3mreal_path[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/blog/2023/bafenshan/禁售通告.jpg [3mdist_file[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/1/1c/1c3499a5018e01ce.jpg [3mpublic_url[0m[2m=[0m/assets/media/1/1c/1c3499a5018e01ce.jpg [3mwxh[0m[2m=[0mNone [3mwxh_from[0m[2m=[0m"none" [3mthumb_mode[0m[2m=[0m"dimensions_only" [3mthumb_cache_hit[0m[2m=[0mNone [3mwidth[0m[2m=[0m1068 [3mheight[0m[2m=[0m838 [3melapsed_ms[0m[2m=[0m17
+[2m2026-06-06T08:28:56.408479Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Create(Folder), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.409180Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Modify(Metadata(Extended)), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.409241Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Create(Folder), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.409268Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Modify(Metadata(Extended)), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.409295Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Create(Folder), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/2"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.409529Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Modify(Metadata(Extended)), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/2"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.409576Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Create(Folder), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/2/26"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.409611Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Modify(Metadata(Extended)), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/2/26"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.409651Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Create(File), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/2/26/26c4672aa9c1cf30.jpg"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.409684Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Modify(Metadata(Extended)), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/2/26/26c4672aa9c1cf30.jpg"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.409727Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Create(Folder), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/1"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.414625Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Modify(Metadata(Extended)), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/1"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.414687Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Create(Folder), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/1/1c"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.414721Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Modify(Metadata(Extended)), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/1/1c"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.414759Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Create(File), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/1/1c/1c3499a5018e01ce.jpg"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.414788Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Modify(Metadata(Extended)), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/1/1c/1c3499a5018e01ce.jpg"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.432273Z[0m [34mDEBUG[0m [2meverkm_publish::fs_media_backend[0m[2m:[0m media.copy_to_dist [3msource[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/blog/2023/bafenshan/聚水.jpg [3mdist[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/e/e8/e8e888fa61f63bc0.jpg [3mcache_hit[0m[2m=[0mfalse [3msha256_cache_hit[0m[2m=[0mfalse [3msha256_ms[0m[2m=[0m38 [3mcopy_ms[0m[2m=[0m0 [3mtotal_ms[0m[2m=[0m39
+[2m2026-06-06T08:28:56.433721Z[0m [34mDEBUG[0m [2meverkm_publish::fs_media_backend[0m[2m:[0m media.read_dimensions [3mfile[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/e/e8/e8e888fa61f63bc0.jpg [3mwidth[0m[2m=[0m1706 [3mheight[0m[2m=[0m1280 [3mcache_hit[0m[2m=[0mfalse [3melapsed_ms[0m[2m=[0m1
+[2m2026-06-06T08:28:56.433776Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::media[0m[2m:[0m media_dist.done [3mmedia_src[0m[2m=[0m"bafenshan/聚水.jpg" [3mreal_path[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/blog/2023/bafenshan/聚水.jpg [3mdist_file[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/e/e8/e8e888fa61f63bc0.jpg [3mpublic_url[0m[2m=[0m/assets/media/e/e8/e8e888fa61f63bc0.jpg [3mwxh[0m[2m=[0mNone [3mwxh_from[0m[2m=[0m"none" [3mthumb_mode[0m[2m=[0m"dimensions_only" [3mthumb_cache_hit[0m[2m=[0mNone [3mwidth[0m[2m=[0m1706 [3mheight[0m[2m=[0m1280 [3melapsed_ms[0m[2m=[0m41
+[2m2026-06-06T08:28:56.443191Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Create(Folder), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/e"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.443256Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Modify(Metadata(Extended)), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/e"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.443291Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Create(Folder), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/e/e8"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.443318Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Modify(Metadata(Extended)), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/e/e8"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.443351Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Create(File), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/e/e8/e8e888fa61f63bc0.jpg"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.443376Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Modify(Metadata(Extended)), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/e/e8/e8e888fa61f63bc0.jpg"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.446905Z[0m [34mDEBUG[0m [2meverkm_publish::fs_media_backend[0m[2m:[0m media.copy_to_dist [3msource[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/blog/2023/bafenshan/山巅的蓝天白云.jpg [3mdist[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/4/42/4253fa71ee0febde.jpg [3mcache_hit[0m[2m=[0mfalse [3msha256_cache_hit[0m[2m=[0mfalse [3msha256_ms[0m[2m=[0m10 [3mcopy_ms[0m[2m=[0m0 [3mtotal_ms[0m[2m=[0m10
+[2m2026-06-06T08:28:56.448050Z[0m [34mDEBUG[0m [2meverkm_publish::fs_media_backend[0m[2m:[0m media.read_dimensions [3mfile[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/4/42/4253fa71ee0febde.jpg [3mwidth[0m[2m=[0m1706 [3mheight[0m[2m=[0m1280 [3mcache_hit[0m[2m=[0mfalse [3melapsed_ms[0m[2m=[0m0
+[2m2026-06-06T08:28:56.448088Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::media[0m[2m:[0m media_dist.done [3mmedia_src[0m[2m=[0m"bafenshan/山巅的蓝天白云.jpg" [3mreal_path[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/blog/2023/bafenshan/山巅的蓝天白云.jpg [3mdist_file[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/4/42/4253fa71ee0febde.jpg [3mpublic_url[0m[2m=[0m/assets/media/4/42/4253fa71ee0febde.jpg [3mwxh[0m[2m=[0mNone [3mwxh_from[0m[2m=[0m"none" [3mthumb_mode[0m[2m=[0m"dimensions_only" [3mthumb_cache_hit[0m[2m=[0mNone [3mwidth[0m[2m=[0m1706 [3mheight[0m[2m=[0m1280 [3melapsed_ms[0m[2m=[0m13
+[2m2026-06-06T08:28:56.457994Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Create(Folder), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/4"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.458045Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Modify(Metadata(Extended)), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/4"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.458065Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Create(Folder), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/4/42"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.458080Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Modify(Metadata(Extended)), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/4/42"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.458099Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Create(File), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/4/42/4253fa71ee0febde.jpg"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.458113Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Modify(Metadata(Extended)), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/4/42/4253fa71ee0febde.jpg"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.459436Z[0m [34mDEBUG[0m [2meverkm_publish::fs_media_backend[0m[2m:[0m media.copy_to_dist [3msource[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/blog/2023/bafenshan/远处的家.jpg [3mdist[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/c/c4/c4baf5b7e1d2fabf.jpg [3mcache_hit[0m[2m=[0mfalse [3msha256_cache_hit[0m[2m=[0mfalse [3msha256_ms[0m[2m=[0m10 [3mcopy_ms[0m[2m=[0m0 [3mtotal_ms[0m[2m=[0m10
+[2m2026-06-06T08:28:56.461425Z[0m [34mDEBUG[0m [2meverkm_publish::fs_media_backend[0m[2m:[0m media.read_dimensions [3mfile[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/c/c4/c4baf5b7e1d2fabf.jpg [3mwidth[0m[2m=[0m1706 [3mheight[0m[2m=[0m1280 [3mcache_hit[0m[2m=[0mfalse [3melapsed_ms[0m[2m=[0m1
+[2m2026-06-06T08:28:56.461486Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::media[0m[2m:[0m media_dist.done [3mmedia_src[0m[2m=[0m"bafenshan/远处的家.jpg" [3mreal_path[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/blog/2023/bafenshan/远处的家.jpg [3mdist_file[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/c/c4/c4baf5b7e1d2fabf.jpg [3mpublic_url[0m[2m=[0m/assets/media/c/c4/c4baf5b7e1d2fabf.jpg [3mwxh[0m[2m=[0mNone [3mwxh_from[0m[2m=[0m"none" [3mthumb_mode[0m[2m=[0m"dimensions_only" [3mthumb_cache_hit[0m[2m=[0mNone [3mwidth[0m[2m=[0m1706 [3mheight[0m[2m=[0m1280 [3melapsed_ms[0m[2m=[0m13
+[2m2026-06-06T08:28:56.461725Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_fs_dom[0m[2m:[0m post.process_img.done [3mpost[0m[2m=[0m/blog/2023/23年秋又游大花山.md [3mimg_total[0m[2m=[0m5 [3mlocal_img[0m[2m=[0m5 [3melapsed_ms[0m[2m=[0m102
+[2m2026-06-06T08:28:56.461910Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/blog/2023/23年秋又游大花山.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("X8mFNeAsHvFhGdub"))
+[2m2026-06-06T08:28:56.462579Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/blog/2023/23年秋又游大花山.md
+[2m2026-06-06T08:28:56.464441Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/blog/2023/23年秋又游大花山.md [3mpath[0m[2m=[0m/blog/2023/23年秋又游大花山.md [3mcontent_bytes[0m[2m=[0m1871 [3melapsed_ms[0m[2m=[0m107
+[2m2026-06-06T08:28:56.468627Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /_SUMMARY.md
+[2m2026-06-06T08:28:56.473409Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Create(Folder), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/c"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.473502Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Modify(Metadata(Extended)), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/c"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.473588Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Create(Folder), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/c/c4"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.474864Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Modify(Metadata(Extended)), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/c/c4"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.475249Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Create(File), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/c/c4/c4baf5b7e1d2fabf.jpg"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.476175Z[0m [34mDEBUG[0m [2meverkm_publish::watcher[0m[2m:[0m got watch event: Event { kind: Modify(Metadata(Extended)), paths: ["/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/__everkm/dist/assets/media/c/c4/c4baf5b7e1d2fabf.jpg"], attr:tracker: None, attr:flag: None, attr:info: None, attr:source: None }
+[2m2026-06-06T08:28:56.514899Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/_SUMMARY.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("X8mFNeAsHvFhGdub"))
+[2m2026-06-06T08:28:56.516384Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/_SUMMARY.md
+[2m2026-06-06T08:28:56.517994Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/_SUMMARY.md [3mpath[0m[2m=[0m/_SUMMARY.md [3mcontent_bytes[0m[2m=[0m113 [3melapsed_ms[0m[2m=[0m48
+[2m2026-06-06T08:28:56.518812Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m nav indicator arg: NavIndicatorArgs { from_file: "/_SUMMARY.md", cur_page_path: "/blog/23nian-qiu-you-you-da-hua-shan-89f490803b11.html" }
+[2m2026-06-06T08:28:56.520262Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::tera_funcs[0m[2m:[0m fetch_post_json find_condition: path: /_SUMMARY.md
+[2m2026-06-06T08:28:56.536298Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::dcard_context[0m[2m:[0m dcard tpl context built [3mlogical_path[0m[2m=[0m/_SUMMARY.md [3mrequest_id_source[0m[2m=[0m"tera_args" [3mrequest_id[0m[2m=[0mSome(String("X8mFNeAsHvFhGdub"))
+[2m2026-06-06T08:28:56.537217Z[0m [34mDEBUG[0m [2meverkm_publish_core::render::post_dcard[0m[2m:[0m dcard: no dcard blocks in document [3mpath[0m[2m=[0m/_SUMMARY.md
+[2m2026-06-06T08:28:56.538182Z[0m [34mDEBUG[0m [2meverkm_publish::extend::post_item[0m[2m:[0m post.attach_content.done [3mpost[0m[2m=[0m/Users/dayu/Coder/everkm/youlog-dayu/dayu-me3/_SUMMARY.md [3mpath[0m[2m=[0m/_SUMMARY.md [3mcontent_bytes[0m[2m=[0m113 [3melapsed_ms[0m[2m=[0m17

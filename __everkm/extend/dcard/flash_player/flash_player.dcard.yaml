@@ -1,0 +1,6 @@
+js:
+  - https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.21/ruffle.min.js
+  - flash.js
+
+css:
+  - flash.css

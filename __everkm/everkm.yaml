@@ -1,0 +1,87 @@
+config:
+  site:
+    name: 🌾大余之道
+    contact: 联系方式：dayu[at]dayu.me，请注意替换@。
+    summary: 资质平平的互联网从业者，至今碌碌无为，毫无建树，但始终坚信未来可期的大龄码农。
+    description: 大余的修行日志。
+    keywords: 大余, 道盒, dayu
+    beian: 
+    host: dayu.me
+  page_size: 12
+  default_lang: zh
+
+  # 版权信息
+  copyright:
+    # from_year: 2021
+    text: 大余之道
+    link: https://dayu.me
+
+  # 评论
+  yousha:
+    community: dayu
+  
+  # 备案信息
+  # beian:
+  #   - text: 苏ICP备2025000000号-1
+  #     link: https://beian.miit.gov.cn/
+
+  algolia:
+    app_id: 1N74YC70XF
+    api_key: 95bb37e3122ee9cb57a8ee0abbd14409   # 前端用，可暴露
+    admin_key: 69d91677b8e724e53c120e1b08d17f52 # 推送用；留空则读环境变量 ALGOLIA_ADMIN_KEY
+    index_name: dayu_me
+    site: dayu.me                              # 站点标识（多站共用索引时区分不同站）
+    channel: main                              # 栏目标识（同站多栏目独立推送时区分）
+
+    # 推送
+    push_on_export: true
+    url_base: https://dayu.me/                 # 导出后 push 拼页面绝对 URL
+    body_selector: "#main-content"             # 正文 CSS 选择器，默认 .markdown-body
+    languages:                                 # reset 时写入 Algolia indexLanguages（ISO 639-1）
+      - zh
+
+  socials:
+    - title: 妙盒Abox
+      url: https://abox.cc
+    - title: 养生
+      url: https://ys.dayu.me
+    - title: 生·活
+      url: https://sh.dayu.me
+    - title: 中医之路
+      url: https://zy.dayu.me
+    - title: 特好吃
+      url: https://tehaochi.cn
+
+  bottom_nav:
+    - title: Everkm
+      url: https://www.everkm.cn
+      new_window: true
+    - title: Abox
+      url: https://abox.co
+
+  # features:
+  #   code_highlight: true
+  #   katex_formula: true   
+  #   particles: true   
+
+  body_end_html: <script defer src="https://aa.daobox.cc/script.js" data-website-id="45f1aff8-8616-4f52-9cd1-1ce9b97a6caf"></script>
+
+redirects:
+  - source: /abox
+    destination: https://abox.co
+  - source: /ysp
+    destination: http://jcold.ysepan.com/
+
+# inject_css:
+#   - url: assets/my.css
+
+folders:
+  /:
+    url_id_suffix: true
+    query:
+      nav_file: "/_nav.md"
+#     storage_scatter: true
+#     breadcrumbs:
+#       - title: "[[blog]]"
+  /blog:
+    hide_in_url: true

@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/abox",
+      "destination": "https://abox.co",
+      "permanent": false
+    },
+    {
+      "source": "/ysp",
+      "destination": "http://jcold.ysepan.com/",
+      "permanent": false
+    }
+  ]
+}
