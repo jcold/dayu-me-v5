@@ -1,0 +1,16 @@
+{
+  "preview": {
+    "theme": "paper",
+    "reveal_private_zones": true
+  },
+  "git": {
+    "remote": {
+      "auth": null,
+      "authMode": "system",
+      "branch": null,
+      "sshKeyId": null,
+      "url": "git@github.com:jcold/dayu-me-v5.git",
+      "username": null
+    }
+  }
+}
