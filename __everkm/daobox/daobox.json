@@ -1,7 +1,12 @@
 {
   "preview": {
+    "base_prefix": "",
     "theme": "paper",
+    "with_vercel": true,
     "reveal_private_zones": true
+  },
+  "publish": {
+    "export_before_push": true
   },
   "git": {
     "remote": {

@@ -28,13 +28,13 @@ config:
   algolia:
     app_id: 1N74YC70XF
     api_key: 95bb37e3122ee9cb57a8ee0abbd14409   # 前端用，可暴露
-    admin_key: 69d91677b8e724e53c120e1b08d17f52 # 推送用；留空则读环境变量 ALGOLIA_ADMIN_KEY
     index_name: dayu_me
     site: dayu.me                              # 站点标识（多站共用索引时区分不同站）
     channel: main                              # 栏目标识（同站多栏目独立推送时区分）
 
     # 推送
     push_on_export: true
+    admin_key: 69d91677b8e724e53c120e1b08d17f52 # 推送用；留空则读环境变量 ALGOLIA_ADMIN_KEY
     url_base: https://dayu.me/                 # 导出后 push 拼页面绝对 URL
     body_selector: "#main-content"             # 正文 CSS 选择器，默认 .markdown-body
     languages:                                 # reset 时写入 Algolia indexLanguages（ISO 639-1）
@@ -43,12 +43,6 @@ config:
   socials:
     - title: 妙盒Abox
       url: https://abox.cc
-    - title: 养生
-      url: https://ys.dayu.me
-    - title: 生·活
-      url: https://sh.dayu.me
-    - title: 中医之路
-      url: https://zy.dayu.me
     - title: 特好吃
       url: https://tehaochi.cn
 
